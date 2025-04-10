@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <>
       <div className="section w-full">
-        <div className="section-video h-[90vh] w-full flex justify-center items-center relative">
-          <video className="object-cover brightness-[50%] h-[90vh] w-full" src="/mining video.mp4" autoPlay muted loop></video>
-          <div className="absolute text-white flex flex-col gap-3 left-0 bottom-0 p-24 w-[50%]">
+        <div className="section-video h-[95vh] w-full flex justify-center items-center relative">
+          <video className="object-cover brightness-[50%] h-[95vh] w-full" src="/mining video.mp4" autoPlay muted loop></video>
+          <div className="absolute text-white flex flex-col gap-3 left-0 bottom-0 p-24 w-[50%] max-xl:w-[80%] max-md:p-10">
             <h2 className="text-4xl font-bold">Our efforts contribute to a brighter & more defined future.</h2>
             <p>We provide essential materials for the world&apos;s continued growth, and aids in the progression to cleaner energy.</p>
             <button type="button" className="text-gray-800 font-semibold w-34 bg-gradient-to-r from-teal-600 to-lime-600 hover:bg-gradient-to-l hover:from-teal-600 hover:to-lime-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Know More.</button>
@@ -18,7 +18,7 @@ export default function Home() {
 
       <div className="about bg-gradient-to-b from-[#fcf7ea] to-[#fff] py-22 px-14 flex flex-col items-center justify-center gap-24 mx-auto">
         <div className="container flex justify-between w-[90vw] mx-auto">
-          <div className="content flex jsutify-center items-center gap-5 flex-col w-[45vw] text-center max-xl:w-[90vw]">
+          <div className="content flex jsutify-center items-center gap-5 flex-col w-[45vw] text-center max-xl:w-[80vw]">
             <h3 className="font-semibold text-xl">About Us</h3>
             <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">Our Journey</h1>
             <p>An inspiring journey spanning over 3 decades of pioneering initiatives, best business practices, and the establishment of new benchmarks for operational efficiency has aided us to emerge as one of the largest mining companies in India.</p>
@@ -31,7 +31,7 @@ export default function Home() {
         </div>
 
         <div className="container flex justify-between w-[90vw] mx-auto max-lg:flex-col max-lg:justify-center max-lg:mx-auto max-lg:w-[80vw] max-lg:items-center max-lg:gap-5">
-          <div className="w-[500px]">
+          <div className="w-[500px] max-md:w-[90%]">
             <Image className="rounded-lg" src="/mining_photo_2.png" alt="" />
           </div>
           <div className="content flex jsutify-center items-center gap-5 flex-col w-[40vw] max-lg:w-[80vw]">
@@ -46,16 +46,16 @@ export default function Home() {
       <div className="container flex justify-between items-center w-[90vw] rounded-lg p-12 mx-auto bg-[#f0ebdc] max-xl:flex-col max-xl:justify-center max-xl:mx-auto max-xl:w-[80vw] max-xl:items-center max-xl:gap-5">
         <div className="content flex jsutify-center items-center gap-5 flex-col w-[40vw] max-xl:w-[70vw]">
           <h3 className="font-semibold text-xl">Our Presence</h3>
-          <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">72MANDC Across India</h1>
+          <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block text-center">72MANDC Across India</h1>
           <p className="max-xl:text-center">With 9 of our ongoing projects that include 4 MDO projects spread across the country, we are dedicated to making India a world-leading coal extractor. Our cost-effectiveness in completing mission-critical tasks on schedule has secured high productivity and profitability for our stakeholders time and time again.</p>
         </div>
-        <div className="w-[500px]">
+        <div className="w-[500px] max-md:w-full">
           <Image className="rounded-lg" src="/presence.png" alt="" />
         </div>
       </div>
 
       <div className="environment bg-gradient-to-t from-[#fcf7ea] to-[#fff] py-22 px-14 flex items-center justify-center gap-24 mx-auto mt-14 max-xl:flex-col max-xl:justify-center max-xl:mx-auto max-xl:w-[80vw] max-xl:items-center max-xl:gap-5">
-        <div className="w-[500px]">
+        <div className="w-[500px] max-md:w-full">
           <Image className="rounded-lg" src="/environment.png" alt="" />
         </div>
         <div className="content flex jsutify-center items-center gap-5 flex-col w-[40vw] max-xl:w-[70vw]">
