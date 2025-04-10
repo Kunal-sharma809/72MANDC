@@ -27,7 +27,7 @@ const Footer = () => {
       <div className="second-half bg-[#fcf7ea] w-[90vw] rounded-lg mt-12 mx-auto flex flex-col justify-center items-center px-34 py-8 relative">
         <div className='flex justify-between items-center w-[80vw]'>
           <div className="left">
-            <Image className='w-32' src="logo.jpg" alt="" />
+            <Image className='w-32' height={54} src="logo.jpg" alt="" />
           </div>
           <div className="right">
             <ul className='flex flex-wrap gap-18 text-sm'>
