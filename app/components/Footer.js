@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
       <div className='first-half bg-[#b6d0bf] w-[90vw] rounded-lg relative mt-32 mx-auto p-14 flex justify-between items-center max-lg:p-8 max-lg:gap-8 max-md:flex-col'>
 
         <div className="container flex justify-between w-[95vw]">
-          <img className='w-[40%] absolute -top-[30%] max-xl:-top-[20%] shadow-lg' src="/footer_img.png" alt="" />
+          <Image className='w-[40%] absolute -top-[30%] max-xl:-top-[20%] shadow-lg' src="/footer_Image.png" alt="" />
           <div></div>
 
           <div className="content w-[50%] flex flex-col gap-2 max-xl:right-10">
@@ -26,7 +27,7 @@ const Footer = () => {
       <div className="second-half bg-[#fcf7ea] w-[90vw] rounded-lg mt-12 mx-auto flex flex-col justify-center items-center px-34 py-8 relative">
         <div className='flex justify-between items-center w-[80vw]'>
           <div className="left">
-            <img className='w-32' src="logo.jpg" alt="" />
+            <Image className='w-32' src="logo.jpg" alt="" />
           </div>
           <div className="right">
             <ul className='flex flex-wrap gap-18 text-sm'>

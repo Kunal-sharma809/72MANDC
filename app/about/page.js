@@ -1,9 +1,10 @@
 import React from 'react'
+import Image from 'next/image'
 
 const page = () => {
     return (
         <div>
-            <div className="about-img h-[75vh] w-full bg-[url('../public/about_page.jpg')] bg-cover bg-center relative p-34">
+            <div className="about-Image h-[75vh] w-full bg-[url('../public/about_page.jpg')] bg-cover bg-center relative p-34">
                 <div className="content flex flex-col gap-4 text-white w-[50vw] absolute bottom-20">
                     <h1 className='text-4xl font-bold'>BGR is one of the leading Mine Developers & Operators in India.</h1>
                     <p>We strive to empower communities, that in turn help make the world a better place.</p>
@@ -19,21 +20,21 @@ const page = () => {
                         <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">Our Vision</h1>
                         <p>We envision BGR becoming the most trusted and preferred Mining Company Globally</p>
                         <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">Our Mission</h1>
-                        <p className='text-center'>We are on a journey to become India’s leading Mining Company by  2025 and provide value to its stakeholders by continuing our core principles of Quality, Safety and Accountability.</p>
+                        <p className='text-center'>We are on a journey to become India&apos;s leading Mining Company by  2025 and provide value to its stakeholders by continuing our core principles of Quality, Safety and Accountability.</p>
                     </div>
                     <div className="w-[448px]">
-                        <img className="rounded-lg" src="/mining_photo.jpeg" alt="" />
+                        <Image className="rounded-lg" src="/mining_photo.jpeg" alt="" />
                     </div>
                 </div>
 
                 <div className="story flex jsutify-center items-center gap-8 w-[90vw] mx-auto">
                     <div className="content flex jsutify-center items-center gap-8 flex-col w-[90vw] mx-auto">
                         <h3 className="font-semibold text-xl">Our Story</h3>
-                        <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">BGR'S Journey</h1>
-                        <p>Envisioned in 1988 , We’ve been advancing and contributing to industries, communities, and economies all across India.</p>
+                        <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">BGR&apos;S Journey</h1>
+                        <p>Envisioned in 1988 , We&apos;ve been advancing and contributing to industries, communities, and economies all across India.</p>
                         <div className='h-full'>
-                        <img className='max-md:hidden' src="/journey.svg" alt="" />
-                        <img className='md:hidden' src="/journey_2.svg" alt="" />
+                        <Image className='max-md:hidden' src="/journey.svg" alt="" />
+                        <Image className='md:hidden' src="/journey_2.svg" alt="" />
                         </div>
                     </div>
                 </div>
@@ -47,7 +48,7 @@ const page = () => {
                         <p className="max-xl:text-center">With 9 of our ongoing projects that include 4 MDO projects spread across the country, we are dedicated to making India a world-leading coal extractor. Our cost-effectiveness in completing mission-critical tasks on schedule has secured high productivity and profitability for our stakeholders time and time again.</p>
                     </div>
                     <div className="w-[500px]">
-                        <img className="rounded-lg" src="/presence.png" alt="" />
+                        <Image className="rounded-lg" src="/presence.png" alt="" />
                     </div>
                 </div>
 
@@ -89,39 +90,39 @@ const page = () => {
                             <p className='w-[35vw]'>We constantly evolve by seeking ways to contribute to a brighter and better future for our people, communities and the planet.</p>
                         </div>
                         <div className="card bg-white shadow-xl w-[350px] p-3 rounded-lg flex flex-col gap-2 relative pt-34">
-                            <img className='h-[80px] absolute top-5 right-5' src="/safety.svg" alt="" />
+                            <Image className='h-[80px] absolute top-5 right-5' src="/safety.svg" alt="" />
                             <h2 className="font-bold text-2xl">Safety</h2>
                             <p>We commit to the welfare, safety and health of people around us first.</p>
                         </div>
                     </div>
                     <div className="values flex justify-center items-center gap-12 flex-wrap">
                         <div className="card bg-white shadow-xl w-[350px] p-3 rounded-lg flex flex-col gap-2 relative pt-34">
-                            <img className='h-[80px] absolute top-5 right-5' src="/customer.svg" alt="" />
+                            <Image className='h-[80px] absolute top-5 right-5' src="/customer.svg" alt="" />
                             <h2 className="font-bold text-2xl">Customer Focus</h2>
                             <p>We commit to the welfare, safety and health of people around us first.</p>
                         </div>
                         <div className="card bg-white shadow-xl w-[350px] p-3 rounded-lg flex flex-col gap-2 relative pt-34">
-                            <img className='h-[80px] absolute top-5 right-5' src="/leadership.svg" alt="" />
+                            <Image className='h-[80px] absolute top-5 right-5' src="/leadership.svg" alt="" />
                             <h2 className="font-bold text-2xl">Leadership</h2>
                             <p>We commit to the welfare, safety and health of people around us first.</p>
                         </div>
                         <div className="card bg-white shadow-xl w-[350px] p-3 rounded-lg flex flex-col gap-2 relative pt-34">
-                            <img className='h-[80px] absolute top-5 right-5' src="/people.svg" alt="" />
+                            <Image className='h-[80px] absolute top-5 right-5' src="/people.svg" alt="" />
                             <h2 className="font-bold text-2xl">People</h2>
                             <p>We commit to the welfare, safety and health of people around us first.</p>
                         </div>
                         <div className="card bg-white shadow-xl w-[350px] p-3 rounded-lg flex flex-col gap-2 relative pt-34">
-                            <img className='h-[80px] absolute top-5 right-5' src="/excellence.svg" alt="" />
+                            <Image className='h-[80px] absolute top-5 right-5' src="/excellence.svg" alt="" />
                             <h2 className="font-bold text-2xl">Excellence</h2>
                             <p>We commit to the welfare, safety and health of people around us first.</p>
                         </div>
                         <div className="card bg-white shadow-xl w-[350px] p-3 rounded-lg flex flex-col gap-2 relative pt-34">
-                            <img className='h-[80px] absolute top-5 right-5' src="/integrity.svg" alt="" />
+                            <Image className='h-[80px] absolute top-5 right-5' src="/integrity.svg" alt="" />
                             <h2 className="font-bold text-2xl">Integrity</h2>
                             <p>We commit to the welfare, safety and health of people around us first.</p>
                         </div>
                         <div className="card bg-white shadow-xl w-[350px] p-3 rounded-lg flex flex-col gap-2 relative pt-34">
-                            <img className='h-[80px] absolute top-5 right-5' src="/sustainability.svg" alt="" />
+                            <Image className='h-[80px] absolute top-5 right-5' src="/sustainability.svg" alt="" />
                             <h2 className="font-bold text-2xl">Sustainability</h2>
                             <p>We commit to the welfare, safety and health of people around us first.</p>
                         </div>
@@ -136,32 +137,32 @@ const page = () => {
                     <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">Board of Directors</h1>
                     <div className="achievments flex justify-center items-center gap-10 flex-wrap">
                         <div className="card bg-[#f0ebdc] w-[350px] p-3 rounded-lg flex flex-col gap-2 justify-center items-center shadow-xl">
-                            <img className='object-cover rounded-lg h-[250px] w-[350px]' src="/avatar.avif" alt="" />
+                            <Image className='object-cover rounded-lg h-[250px] w-[350px]' src="/avatar.avif" alt="" />
                             <h2 className="text-xl">Name</h2>
                             <p>Founder</p>
                         </div>
                         <div className="card bg-[#f0ebdc] w-[350px] p-3 rounded-lg flex flex-col gap-2 justify-center items-center shadow-xl">
-                            <img className='object-cover rounded-lg h-[250px] w-[350px]' src="/avatar.avif" alt="" />
+                            <Image className='object-cover rounded-lg h-[250px] w-[350px]' src="/avatar.avif" alt="" />
                             <h2 className="text-xl">Name</h2>
                             <p>Co-Founder &amp; Managing Director</p>
                         </div>
                         <div className="card bg-[#f0ebdc] w-[350px] p-3 rounded-lg flex flex-col gap-2 justify-center items-center shadow-xl">
-                            <img className='object-cover rounded-lg h-[250px] w-[350px]' src="/avatar.avif" alt="" />
+                            <Image className='object-cover rounded-lg h-[250px] w-[350px]' src="/avatar.avif" alt="" />
                             <h2 className="text-xl">Name</h2>
                             <p>Co-Founder &amp; Sr. Director</p>
                         </div>
                         <div className="card bg-[#f0ebdc] w-[350px] p-3 rounded-lg flex flex-col gap-2 justify-center items-center shadow-xl">
-                            <img className='object-cover rounded-lg h-[250px] w-[350px]' src="/avatar.avif" alt="" />
+                            <Image className='object-cover rounded-lg h-[250px] w-[350px]' src="/avatar.avif" alt="" />
                             <h2 className="text-xl">Name</h2>
                             <p>Director</p>
                         </div>
                         <div className="card bg-[#f0ebdc] w-[350px] p-3 rounded-lg flex flex-col gap-2 justify-center items-center shadow-xl">
-                            <img className='object-cover rounded-lg h-[250px] w-[350px]' src="/avatar.avif" alt="" />
+                            <Image className='object-cover rounded-lg h-[250px] w-[350px]' src="/avatar.avif" alt="" />
                             <h2 className="text-xl">Name</h2>
                             <p>Director</p>
                         </div>
                         <div className="card bg-[#f0ebdc] w-[350px] p-3 rounded-lg flex flex-col gap-2 justify-center items-center shadow-xl">
-                            <img className='object-cover rounded-lg h-[250px] w-[350px]' src="/avatar.avif" alt="" />
+                            <Image className='object-cover rounded-lg h-[250px] w-[350px]' src="/avatar.avif" alt="" />
                             <h2 className="text-xl">Name</h2>
                             <p>Director</p>
                         </div>

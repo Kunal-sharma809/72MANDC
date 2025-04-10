@@ -1,12 +1,13 @@
 import React from 'react'
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Navbar = () => {
     return (
         <div className='flex justify-between items-center bg-[#e5e5e5]'>
             <nav className="flex justify-between items-center mx-10 p-4 relative w-full fixed top-0">
                 <div className="logo font-bold text-4xl flex gap-2">
-                    <img src="/logo.jpg" width={54} alt="" />
+                    <Image src="/logo.jpg" width={54} alt="" />
                     <span className='font-mono'>72 MANDC</span>
                 </div>
                 <ul className='flex gap-8'>
