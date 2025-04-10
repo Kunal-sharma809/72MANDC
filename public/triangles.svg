@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101" height="56" viewBox="0 0 101 56">
+  <defs>
+    <clipPath id="clip-Left-element">
+      <rect width="101" height="56"/>
+    </clipPath>
+  </defs>
+  <g id="Left-element" clip-path="url(#clip-Left-element)">
+    <g id="Group_202031" data-name="Group 202031" transform="matrix(-0.809, -0.588, 0.588, -0.809, -569.719, 2852.887)">
+      <path id="Path_199753" data-name="Path 199753" d="M0,0V20.164L17.463,30.247Z" transform="matrix(-0.545, -0.839, 0.839, -0.545, 1223.511, 2636)" fill="#191e23" fill-rule="evenodd"/>
+      <path id="Path_199758" data-name="Path 199758" d="M0,0H15.443L7.722,13.374Z" transform="translate(1196.125 2665.623) rotate(-90)" fill="#407050" fill-rule="evenodd"/>
+      <path id="Path_248028" data-name="Path 248028" d="M0,0H15.443L7.722,13.374Z" transform="translate(1118 2665.623) rotate(-90)" fill="#407050" fill-rule="evenodd"/>
+      <path id="Path_199755" data-name="Path 199755" d="M30.31,0H0L15.155,26.25Z" transform="translate(1169 2647.655) rotate(-90)" fill="#d1b35c" fill-rule="evenodd"/>
+      <path id="Path_199756" data-name="Path 199756" d="M14.157,0,0,24.521H14.157Z" transform="translate(1122.25 2725.734) rotate(-90)" fill="#d1b35c" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>
