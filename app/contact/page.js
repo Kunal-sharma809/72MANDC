@@ -29,7 +29,7 @@ const Page = () => {
   };
     return (
         <div className='flex justify-center flex-col items-center gap-12'>
-            <div className="contact-img h-[85vh] w-full bg-[url('../public/contact_page.jpg')] bg-cover bg-center relative p-34">
+            <div className="contact_section h-[85vh] w-full bg-[url('../public/contact_page.jpg')] bg-cover bg-center relative p-34">
                 <div className="absolute text-white flex flex-col gap-3 left-0 bottom-0 p-24 w-[60%] max-xl:w-[80%] max-md:p-10">
                     <h1 className='text-4xl font-bold'>Our products contribute to a brighter &amp; more defined future.</h1>
                     <p>We produce essential materials for the world&apos;s continued growth,
@@ -45,8 +45,8 @@ const Page = () => {
                     <p className='w-[40vw] text-center max-lg:w-[80vw]'>Do you want to contact 72MANDC? Check if our page answers your question. Otherwise, sends us a message or contact us directly.</p>
                 </div>
 
-                <div className="contact-details flex justify-between items-center w-full py-18 px-22 max-lg:flex-col max-lg:justify-center max-lg:items-center max-lg:gap-12">
-                    <div className="left w-[50%] flex flex-col gap-8 justify-center">
+                <div className="contact-details flex justify-between items-center w-full py-18 px-22 max-lg:flex-col max-lg:gap-12 max-lg:px-10">
+                    <div className="left w-[50%] flex flex-col gap-8 justify-center max-lg:w-full">
                         <div>
                             <h2 className='text-2xl'>Contact Details</h2>
                             <p className='max-lg:w-[80vw]'>Find our contact number, email id and office address.</p>
@@ -74,12 +74,12 @@ const Page = () => {
                         </div>
                         <form ref={form} onSubmit={sendEmail} action="" className='flex flex-col flex-wrap gap-4'>
                             <div className='flex gap-6 justify-between w-full max-lg:flex-wrap'>
-                                <input className='py-3 px-5 rounded-lg bg-[#ece5cd] w-[48%] outline-none max-lg:w-full' type="text" placeholder='Enter your first name' required />
-                                <input className='py-3 px-5 rounded-lg bg-[#ece5cd] w-[48%] outline-none max-lg:w-full' type="text" placeholder='Enter your last name' required />
+                                <input className='py-3 px-5 rounded-lg bg-[#ece5cd] w-[48%] outline-none max-lg:w-full' name='user_firstname' type="text" placeholder='Enter your first name' required />
+                                <input className='py-3 px-5 rounded-lg bg-[#ece5cd] w-[48%] outline-none max-lg:w-full' name='user_lastname' type="text" placeholder='Enter your last name' required />
                             </div>
                             <div className='flex gap-6 justify-between w-full max-lg:flex-wrap'>
-                                <input className='py-3 px-5 rounded-lg bg-[#ece5cd] w-[48%] outline-none max-lg:w-full' type="number" placeholder='Enter your phone number' required />
-                                <input className='py-3 px-5 rounded-lg bg-[#ece5cd] w-[48%] outline-none max-lg:w-full' type="email" placeholder='Enter your email' required />
+                                <input className='py-3 px-5 rounded-lg bg-[#ece5cd] w-[48%] outline-none max-lg:w-full' name='user_phone' type="number" placeholder='Enter your phone number' required />
+                                <input className='py-3 px-5 rounded-lg bg-[#ece5cd] w-[48%] outline-none max-lg:w-full' name='user_email' type="email" placeholder='Enter your email' required />
                             </div>
                             <textarea className='py-3 px-5 rounded-lg bg-[#ece5cd] w-full h-32 resize-none outline-none' name="" id="" placeholder='Enter your message' required></textarea>
                             <input className='bg-[#c7a74a] text-white w-fit px-8 py-3 rounded-lg cursor-pointer' type="submit" value={"Submit"} />

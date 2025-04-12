@@ -16,7 +16,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="about bg-gradient-to-b from-[#fcf7ea] to-[#fff] py-22 px-14 flex flex-col items-center justify-center gap-24 mx-auto">
+      <div className="about bg-gradient-to-b from-[#fcf7ea] to-[#fff] py-22 px-14 flex flex-col items-center justify-center gap-24 mx-auto  max-md:px-8">
         <div className="container flex justify-between w-[90vw] mx-auto">
           <div className="content flex jsutify-center items-center gap-5 flex-col w-[45vw] text-center max-xl:w-[80vw]">
             <h3 className="font-semibold text-xl">About Us</h3>
@@ -30,8 +30,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="container flex justify-between w-[90vw] mx-auto max-lg:flex-col max-lg:justify-center max-lg:mx-auto max-lg:w-[80vw] max-lg:items-center max-lg:gap-5">
-          <div className="w-[500px] max-md:w-[90%]">
+        <div className="container flex justify-between w-[90vw] mx-auto max-lg:flex-col max-lg:justify-center max-lg:mx-auto max-lg:w-[80vw] max-lg:items-center max-lg:gap-5 max-md:px-8">
+          <div className="w-[500px] max-md:w-full">
             <Image className="rounded-lg" src="/mining_photo_2.png" alt="" />
           </div>
           <div className="content flex jsutify-center items-center gap-5 flex-col w-[40vw] max-lg:w-[80vw]">
@@ -43,7 +43,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container flex justify-between items-center w-[90vw] rounded-lg p-12 mx-auto bg-[#f0ebdc] max-xl:flex-col max-xl:justify-center max-xl:mx-auto max-xl:w-[80vw] max-xl:items-center max-xl:gap-5">
+      <div className="container flex justify-between items-center w-[90vw] rounded-lg py-12 px-12 mx-auto bg-[#f0ebdc] max-xl:flex-col max-xl:justify-center max-xl:mx-auto max-xl:w-[80vw] max-xl:items-center max-xl:gap-5 max-xl:px-4">
         <div className="content flex jsutify-center items-center gap-5 flex-col w-[40vw] max-xl:w-[70vw]">
           <h3 className="font-semibold text-xl">Our Presence</h3>
           <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block text-center">72MANDC Across India</h1>
@@ -54,7 +54,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="environment bg-gradient-to-t from-[#fcf7ea] to-[#fff] py-22 px-14 flex items-center justify-center gap-24 mx-auto mt-14 max-xl:flex-col max-xl:justify-center max-xl:mx-auto max-xl:w-[80vw] max-xl:items-center max-xl:gap-5">
+      <div className="environment bg-gradient-to-t from-[#fcf7ea] to-[#fff] py-22 px-14 flex items-center justify-center gap-24 mx-auto mt-14 max-xl:flex-col max-xl:justify-center max-xl:mx-auto max-xl:w-[80vw] max-xl:items-center max-xl:gap-5 max-xl:px-4">
         <div className="w-[500px] max-md:w-full">
           <Image className="rounded-lg" src="/environment.png" alt="" />
         </div>
@@ -72,17 +72,17 @@ export default function Home() {
           <h3 className="font-semibold text-xl text-center">Our Collaborations</h3>
           <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">Companies that Believe In Us</h1>
           <div className="companies flex flex-wrap justify-center items-center gap-18 max-xl:gap-10 max-lg:gap-8 max-md:gap-4 max-sm:gap-2">
-            <Image src="/gmdc.svg" alt="" />
-            <Image src="/coal_india.svg" alt="" />
-            <Image src="/wbpdcl.svg" alt="" />
-            <Image src="/sccl.svg" alt="" />
-            <Image src="/coal_india_2.svg" alt="" />
-            <Image src="/secl.svg" alt="" />
-            <Image src="/omc.svg" alt="" />
-            <Image src="/vedanta.svg" alt="" />
-            <Image src="/nlc.svg" alt="" />
-            <Image src="/icvl.svg" alt="" />
-            <Image src="/ocpl.svg" alt="" />
+            <Image src="/collaborations/gmdc.svg" alt="" />
+            <Image src="/collaborations/coal_india.svg" alt="" />
+            <Image src="/collaborations/wbpdcl.svg" alt="" />
+            <Image src="/collaborations/sccl.svg" alt="" />
+            <Image src="/collaborations/coal_india_2.svg" alt="" />
+            <Image src="/collaborations/secl.svg" alt="" />
+            <Image src="/collaborations/omc.svg" alt="" />
+            <Image src="/collaborations/vedanta.svg" alt="" />
+            <Image src="/collaborations/nlc.svg" alt="" />
+            <Image src="/collaborations/icvl.svg" alt="" />
+            <Image src="/collaborations/ocpl.svg" alt="" />
             <Image className="w-[110px]" src="/ntpc.jpeg" alt="" />
           </div>
         </div>
@@ -94,15 +94,15 @@ export default function Home() {
           <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">Our Achievements</h1>
           <div className="achievments flex justify-center items-center gap-18 flex-wrap">
             <div className="card bg-[#f0ebdc] w-[350px] p-3 rounded-lg flex flex-col gap-2">
-              <Image src="/awards.png" alt="" />
+              <Image src="/achievments/awards.png" alt="" />
               <h2 className="font-bold text-xl">Awarded the best outsourcing agency for safety by NCL, BCCL, CCL and GMDC</h2>
             </div>
             <div className="card bg-[#f0ebdc] w-[350px] p-3 rounded-lg flex flex-col gap-2">
-              <Image src="/coal_production.png" alt="" />
+              <Image src="/achievments/coal_production.png" alt="" />
               <h2 className="font-bold text-xl">Coal production increased by 44.1% from 20 million to 28.82 million tonnes in FY 2022-23</h2>
             </div>
             <div className="card bg-[#f0ebdc] w-[350px] p-3 rounded-lg flex flex-col gap-2">
-              <Image src="/maniharpur_map.png" alt="" />
+              <Image src="/achievments/maniharpur_map.png" alt="" />
               <h2 className="font-bold text-xl">Coal dispatches from Manoharpur increased by 44.64% from 5.56 million to 8 million tonnes in FY 2022-23</h2>
             </div>
           </div>

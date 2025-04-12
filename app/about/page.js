@@ -4,7 +4,7 @@ import Image from 'next/image'
 const page = () => {
     return (
         <div>
-            <div className="about-img h-[85vh] w-full bg-[url('../public/about_page.jpg')] bg-cover bg-center relative p-34">
+            <div className="about_section h-[85vh] w-full bg-[url('../public/about_page.jpg')] bg-cover bg-center relative p-34">
                 <div className="absolute text-white flex flex-col gap-3 left-0 bottom-0 p-24 w-[50%] max-xl:w-[80%] max-md:p-10">
                     <h1 className='text-4xl font-bold'>72MANDC is one of the leading Mine Developers & Operators in India.</h1>
                     <p>We strive to empower communities, that in turn help make the world a better place.</p>
