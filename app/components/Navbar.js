@@ -12,18 +12,13 @@ const Navbar = () => {
     }
 
     return (
-<<<<<<< HEAD
-        <nav className="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200 overflow-hidden">
-            <div className="max-w-screen-xl mx-auto flex flex-wrap items-center justify-between p-4">
-=======
-        <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200">
+        <nav className="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between p-4">
->>>>>>> b21950d2eb08c558e88df516ea1c11f1f3b3d341
                 <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <Image src="/logo.jpg" className="h-8" alt="72MANDC Logo" />
                     <span className="self-center text-2xl font-semibold">72MANDC</span>
                 </a>
-                <button onClick={()=> {toggleNavbar()}} onBlur={() => {setTimeout(() => {setIsOpen(!isOpen)},100)}} data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden  focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-default" aria-expanded="false">
+                <button onClick={() => { toggleNavbar() }} onBlur={() => { setTimeout(() => { setIsOpen(!isOpen) }, 100) }} data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden  focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-default" aria-expanded="false">
                     <span className="sr-only">Open main menu</span>
                     <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
@@ -42,7 +37,7 @@ const Navbar = () => {
                 </div>
             </div>
         </nav>
-    );
+    )
 }
 
 export default Navbar
