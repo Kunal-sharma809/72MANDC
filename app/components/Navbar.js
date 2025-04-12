@@ -12,8 +12,13 @@ const Navbar = () => {
     }
 
     return (
+<<<<<<< HEAD
         <nav className="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200 overflow-hidden">
             <div className="max-w-screen-xl mx-auto flex flex-wrap items-center justify-between p-4">
+=======
+        <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200">
+            <div className="max-w-screen-xl flex flex-wrap items-center justify-between p-4">
+>>>>>>> b21950d2eb08c558e88df516ea1c11f1f3b3d341
                 <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <Image src="/logo.jpg" className="h-8" alt="72MANDC Logo" />
                     <span className="self-center text-2xl font-semibold">72MANDC</span>
