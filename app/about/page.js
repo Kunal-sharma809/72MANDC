@@ -1,5 +1,7 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
+import { Link, Element } from 'react-scroll';
 
 const page = () => {
     return (
@@ -8,11 +10,18 @@ const page = () => {
                 <div className="absolute text-white flex flex-col gap-3 left-0 bottom-0 p-24 w-[50%] max-xl:w-[80%] max-md:p-10">
                     <h1 className='text-4xl font-bold'>72MANDC is one of the leading Mine Developers & Operators in India.</h1>
                     <p>We strive to empower communities, that in turn help make the world a better place.</p>
-                    <button type="button" className="text-white font-semibold w-34 bg-gradient-to-r from-teal-600 to-lime-600 hover:bg-gradient-to-l hover:from-teal-600 hover:to-lime-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Know More.</button>
+                    <Link to="aboutSection" smooth={true} duration={600}>
+                        <button type="button" className="flex items-center gap-3 text-white font-semibold w-38 bg-gradient-to-r from-teal-600 to-lime-600 hover:bg-gradient-to-l hover:from-teal-600 hover:to-lime-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 cursor-pointer">
+                            <span>Know More.</span>
+                            <Image src="/downarrow.svg" alt="" />
+                        </button>
+                    </Link>
                 </div>
 
             </div>
 
+
+            <Element name="aboutSection">
             <div className="about w-full bg-gradient-to-b from-[#fcf7ea] to-[#fff] py-22 px-14 flex flex-col items-center justify-center gap-34">
                 <div className="vision flex justify-between w-[85vw] max-xl:flex-col max-xl:gap-8 max-xl:items-center">
                     <div className="content flex jsutify-center items-center gap-5 flex-col w-[45vw] max-xl:w-[85vw]">
@@ -33,12 +42,13 @@ const page = () => {
                         <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block text-center">72MANDC&apos;S Journey</h1>
                         <p className='text-center'>Envisioned in 1988 , We&apos;ve been advancing and contributing to industries, communities, and economies all across India.</p>
                         <div className=''>
-                        <Image className='max-md:hidden' src="/journey.svg" alt="" />
-                        <Image className='md:hidden w-[85vw]' src="/journey_2.svg" alt="" />
+                            <Image className='max-md:hidden' src="/journey.svg" alt="" />
+                            <Image className='md:hidden w-[85vw]' src="/journey_2.svg" alt="" />
                         </div>
                     </div>
                 </div>
             </div>
+            </Element>
 
             <div className="flex flex-col justify-center items-center gap-12 bg-[#f0ebdc] shadow-xl w-[90vw] rounded-lg p-12 mx-auto">
                 <div className="glance flex justify-between items-center max-xl:flex-col max-xl:justify-center  max-xl:w-[80vw] max-xl:items-center max-xl:gap-5">
@@ -83,7 +93,7 @@ const page = () => {
 
             <div className="bg-gradient-to-t from-[#fcf7ea] to-[#fff] flex jsutify-center items-center mx-auto px-12 py-24">
                 <div className="content flex jsutify-center flex-col gap-8 mx-auto">
-                    <div className='flex justify-between w-[75vw] mx-auto max-lg:flex-col max-lg:gap-5'>
+                    <div className='flex justify-between items-center w-[75vw] mx-auto max-lg:flex-col max-lg:gap-5'>
                         <div className='flex flex-col gap-3 text-center'>
                             <h3 className="font-semibold text-xl">About Us</h3>
                             <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">Our Values</h1>
@@ -166,7 +176,7 @@ const page = () => {
                             <h2 className="text-xl">Name</h2>
                             <p>Director</p>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>

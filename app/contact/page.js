@@ -74,8 +74,7 @@ const Page = () => {
                         </div>
                         <form ref={form} onSubmit={sendEmail} action="" className='flex flex-col flex-wrap gap-4'>
                             <div className='flex gap-6 justify-between w-full max-lg:flex-wrap'>
-                                <input className='py-3 px-5 rounded-lg bg-[#ece5cd] w-[48%] outline-none max-lg:w-full' type="text" placeholder='Enter your first name' required />
-                                <input className='py-3 px-5 rounded-lg bg-[#ece5cd] w-[48%] outline-none max-lg:w-full' type="text" placeholder='Enter your last name' required />
+                                <input className='py-3 px-5 rounded-lg bg-[#ece5cd] w-full outline-none max-lg:w-full' type="text" placeholder='Enter your first name' name='user_name' required />
                             </div>
                             <div className='flex gap-6 justify-between w-full max-lg:flex-wrap'>
                                 <input className='py-3 px-5 rounded-lg bg-[#ece5cd] w-[48%] outline-none max-lg:w-full' name='user_phone' type="number" placeholder='Enter your phone number' required />

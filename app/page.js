@@ -1,7 +1,10 @@
+"use client"
 import React from "react";
 import Image from "next/image";
+import { Link, Element } from 'react-scroll';
 
 export default function Home() {
+
   return (
     <>
       <div className="section w-full">
@@ -10,12 +13,18 @@ export default function Home() {
           <div className="absolute text-white flex flex-col gap-3 left-0 bottom-0 p-24 w-[50%] max-xl:w-[80%] max-md:p-10">
             <h2 className="text-4xl font-bold">Our efforts contribute to a brighter & more defined future.</h2>
             <p>We provide essential materials for the world&apos;s continued growth, and aids in the progression to cleaner energy.</p>
-            <button type="button" className="text-gray-800 font-semibold w-34 bg-gradient-to-r from-teal-600 to-lime-600 hover:bg-gradient-to-l hover:from-teal-600 hover:to-lime-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Know More.</button>
+            <Link to="aboutSection" smooth={true} duration={600}>
+            <button type="button" className="flex items-center gap-3 text-white font-semibold w-38 bg-gradient-to-r from-teal-600 to-lime-600 hover:bg-gradient-to-l hover:from-teal-600 hover:to-lime-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 cursor-pointer">
+              <span>Know More.</span>
+              <Image src="/downarrow.svg" alt="" />
+            </button>
+            </Link>
 
           </div>
         </div>
       </div>
 
+      <Element name="aboutSection">
       <div className="about bg-gradient-to-b from-[#fcf7ea] to-[#fff] py-22 px-14 flex flex-col items-center justify-center gap-24 mx-auto  max-md:px-8">
         <div className="container flex justify-between w-[90vw] mx-auto">
           <div className="content flex jsutify-center items-center gap-5 flex-col w-[45vw] text-center max-xl:w-[80vw]">
@@ -23,7 +32,7 @@ export default function Home() {
             <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">Our Journey</h1>
             <p>An inspiring journey spanning over 3 decades of pioneering initiatives, best business practices, and the establishment of new benchmarks for operational efficiency has aided us to emerge as one of the largest mining companies in India.</p>
             <p>Our core expertise is in OB removal, mineral extraction and transportation. Being a company that&apos;s consistently eager for greater challenges we have forayed into Mine Development & Operations (MDO) to add to a repertoire of contracts.</p>
-            <button className="text-[#7e651c] font-semibold">Know More</button>
+            <Link href={"/about"} className="text-[#7e651c] font-semibold">Know More</Link>
           </div>
           <div className="w-[448px] max-xl:hidden">
             <Image className="rounded-lg" src="/mining_photo.jpeg" alt="" />
@@ -38,10 +47,11 @@ export default function Home() {
             <h3 className="font-semibold text-xl">What we do</h3>
             <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">Mining & Extraction</h1>
             <p>Apart from electricity, coal is an essential raw material for the production of iron and steel, as well as the primary energy fuel used in the production of cement, aluminium, and other energy-intensive industrial products.</p>
-            <button className="text-[#7e651c] font-semibold">Know More</button>
+            <Link href={"/projects"} className="text-[#7e651c] font-semibold">Know More</Link>
           </div>
         </div>
       </div>
+      </Element>
 
       <div className="container flex justify-between items-center w-[90vw] rounded-lg py-12 px-12 mx-auto bg-[#f0ebdc] max-xl:flex-col max-xl:justify-center max-xl:mx-auto max-xl:w-[80vw] max-xl:items-center max-xl:gap-5 max-xl:px-4">
         <div className="content flex jsutify-center items-center gap-5 flex-col w-[40vw] max-xl:w-[70vw]">
