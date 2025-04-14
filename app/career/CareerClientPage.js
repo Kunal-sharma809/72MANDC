@@ -107,7 +107,7 @@ const CareerClientPage = () => {
                                 <input className='py-3 px-5 rounded-lg bg-[#ece5cd] w-[48%] outline-none max-lg:w-full' name='user_email' type="email" placeholder='Enter your email' required />
                             </div>
                             <textarea className='py-3 px-5 rounded-lg bg-[#ece5cd] w-full h-32 resize-none outline-none' name="message" id="" placeholder='Enter your message' required></textarea>
-                            <div className='bg-[#c7a74a] flex items-center gap-3 text-white w-full px-5 py-3 rounded-lg cursor-pointer'>
+                            <div className='bg-[#c7a74a] flex items-center gap-3 text-white w-full px-5 py-3 rounded-lg cursor-pointer max-md:flex-col'>
                                 <Image src="/career/upload.svg" alt="" />
                                 <label htmlFor="file-upload">Upload Resume: </label>
                                 <input type="file" onChange={handleFileChange} />
