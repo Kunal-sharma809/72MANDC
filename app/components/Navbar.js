@@ -29,7 +29,6 @@ const Navbar = () => {
                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
                     </svg>
                 </button>
-<<<<<<< HEAD
 
                 <div className={`${isOpen ? "block" : "hidden"} w-full md:block md:w-auto`}>
                     <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
@@ -48,17 +47,6 @@ const Navbar = () => {
                                 </Link>
                             </li>
                         ))}
-=======
-                <div id="navbar-default" className={`${isOpen ? "block" : "hidden"} w-full md:block md:w-auto`}>
-                    <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
-                        <Link href="/" className="block py-2 px-3 rounded-sm md:p-0 hover:font-semibold" aria-current="page">Home</Link>
-                        <Link href="/about" className="block py-2 px-3 text-gray-900 rounded-sm md:border-0 md:p-0 hover:font-semibold">About Us</Link>
-                        <Link href="/projects" className="block py-2 px-3 text-gray-900 rounded-sm md:border-0 md:p-0 hover:font-semibold">Our Projects</Link>
-                        <Link href="/sustainability" className="block py-2 px-3 text-gray-900 rounded-sm md:border-0 md:p-0 hover:font-semibold">Sustainability</Link>
-                        <Link href="/news" className="block py-2 px-3 text-gray-900 rounded-sm md:border-0 md:p-0 hover:font-semibold">News</Link>
-                        <Link href="/career" className="block py-2 px-3 text-gray-900 rounded-sm md:border-0 md:p-0 hover:font-semibold">Career</Link>
-                        <Link href="/contact" className="block py-2 px-3 text-gray-900 rounded-sm md:border-0 md:p-0 hover:font-semibold">Contact Us</Link>
->>>>>>> c167869257f66ad499e98f9842ea635bf6e1ee93
                     </ul>
                 </div>
             </div>
