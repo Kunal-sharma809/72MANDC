@@ -14,11 +14,11 @@ const CareerClientPage = () => {
         const reader = new FileReader();
 
         reader.onloadend = () => {
-            setFileBase64(reader.result); // base64 string
+            setFileBase64(reader.result); // Save base64 string
         };
 
         if (file) {
-            reader.readAsDataURL(file);
+            reader.readAsDataURL(file); // Convert to base64
         }
     };
 
@@ -107,15 +107,10 @@ const CareerClientPage = () => {
                                 <input className='py-3 px-5 rounded-lg bg-[#ece5cd] w-[48%] outline-none max-lg:w-full' name='user_email' type="email" placeholder='Enter your email' required />
                             </div>
                             <textarea className='py-3 px-5 rounded-lg bg-[#ece5cd] w-full h-32 resize-none outline-none' name="message" id="" placeholder='Enter your message' required></textarea>
-                            <div className="flex gap-3">
-                                <Image src="/career/upload.svg" alt="" />
-                                <label htmlFor="file-upload">Upload Resume: </label>
-                            </div>
-                            
+
                             <div className='bg-[#c7a74a] flex justify-center items-center gap-3 text-white w-full px-5 py-3 rounded-lg cursor-pointer max-md:flex-col'>
-                                
-                                <input type="file" onChange={handleFileChange} />
-                                <input type="hidden" name="file_base64" value={fileBase64} />
+
+                                <input className='py-3 px-5 rounded-lg bg-[#ece5cd] w-full outline-none' type="url" name="resume_link" placeholder="Paste your Google Drive resume link here" required />
                             </div>
                             <input className='bg-[#c7a74a] text-white w-fit px-8 py-3 rounded-lg cursor-pointer w-fit' type="submit" value={"Submit"} />
                         </form>
