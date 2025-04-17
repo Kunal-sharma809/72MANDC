@@ -98,6 +98,8 @@ const CareerClientPage = () => {
                             <h2 className='text-2xl'>Send Us A Message</h2>
                             <p>If your question isn&apos;t answered here, or elsewhere on this site, please send us a message. We will contact you soon.</p>
                         </div>
+
+                        { isSubmitting && <div>Loading...</div>}
                         <form ref={form} onSubmit={sendEmail} action="" className='flex flex-col flex-wrap gap-4'>
                             <div className='flex gap-6 justify-between w-full max-lg:flex-wrap'>
                                 <input className='py-3 px-5 rounded-lg bg-[#ece5cd] w-full outline-none max-lg:w-full' type="text" placeholder='Enter your name' name='user_name' required />
@@ -109,8 +111,8 @@ const CareerClientPage = () => {
                             <textarea className='py-3 px-5 rounded-lg bg-[#ece5cd] w-full h-32 resize-none outline-none' name="message" id="" placeholder='Enter your message' required></textarea>
 
                             <input className='py-3 px-5 rounded-lg bg-[#ece5cd] w-full outline-none' type="url" name="resume_link" placeholder="Paste your Google Drive resume link here" required />
-                            
-                            <input className='bg-[#c7a74a] text-white w-fit px-8 py-3 rounded-lg cursor-pointer w-fit' type="submit" value={"Submit"} />
+
+                            <input className='bg-[#c7a74a] text-white w-fit px-8 py-3 rounded-lg cursor-pointer w-fit' type="submit" value={"Submit"} disabled={isSubmitting} />
                         </form>
                     </div>
                 </div>
