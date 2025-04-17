@@ -108,10 +108,8 @@ const CareerClientPage = () => {
                             </div>
                             <textarea className='py-3 px-5 rounded-lg bg-[#ece5cd] w-full h-32 resize-none outline-none' name="message" id="" placeholder='Enter your message' required></textarea>
 
-                            <div className='bg-[#c7a74a] flex justify-center items-center gap-3 text-white w-full px-5 py-3 rounded-lg cursor-pointer max-md:flex-col'>
-
-                                <input className='py-3 px-5 rounded-lg bg-[#ece5cd] w-full outline-none' type="url" name="resume_link" placeholder="Paste your Google Drive resume link here" required />
-                            </div>
+                            <input className='py-3 px-5 rounded-lg bg-[#ece5cd] w-full outline-none' type="url" name="resume_link" placeholder="Paste your Google Drive resume link here" required />
+                            
                             <input className='bg-[#c7a74a] text-white w-fit px-8 py-3 rounded-lg cursor-pointer w-fit' type="submit" value={"Submit"} />
                         </form>
                     </div>
