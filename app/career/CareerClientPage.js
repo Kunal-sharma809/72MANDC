@@ -4,10 +4,17 @@ import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import Image from 'next/image';
 import { Link, Element } from 'react-scroll';
+import { useForm } from "react-hook-form"
 
 const CareerClientPage = () => {
     const form = useRef();
     const [fileBase64, setFileBase64] = useState('');
+    const {
+        register,
+        handleSubmit,
+        setError,
+        formState: {errors, isSubmitting },
+    } = useForm();
 
     const handleFileChange = (e) => {
         const file = e.target.files[0];
