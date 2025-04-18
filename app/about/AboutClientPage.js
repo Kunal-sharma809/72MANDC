@@ -133,7 +133,7 @@ const AboutClientPage = () => {
                     <div className="achievments flex justify-center items-center gap-8 flex-wrap">
                         <div className="card bg-[#f0ebdc] w-[300px] p-3 rounded-lg flex flex-col gap-2 justify-center items-center shadow-xl">
                             <Image className='object-top rounded-lg h-[300px] w-[300px]' src="/founder.jpg" alt="" />
-                            <h2 className="text-xl">Name</h2>
+                            <h2 className="text-xl">Arvind Karshan Sangar</h2>
                             <p>Founder</p>
                         </div>
                         
