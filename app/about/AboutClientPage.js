@@ -77,9 +77,8 @@ const AboutClientPage = () => {
 
             </div>
 
-            <div className="bg-gradient-to-t from-[#fcf7ea] to-[#fff] flex jsutify-center items-center mx-auto px-12 py-24">
-                <div className="content flex jsutify-center flex-col gap-8 mx-auto">
-                    <div className='flex justify-between items-center w-[75vw] mx-auto max-lg:flex-col max-lg:gap-5 max-lg:justify-center'>
+            <div className="bg-gradient-to-t from-[#fcf7ea] to-[#fff] flex flex-col gap-12 jsutify-center items-center px-12 py-24 max-lg:gap-6">
+                    <div className='flex justify-between items-center w-[75vw] max-lg:flex-col max-lg:gap-5 max-lg:justify-center'>
                         <div className='flex flex-col gap-3 text-center'>
                             <h3 className="font-semibold text-xl">About Us</h3>
                             <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">Our Values</h1>
@@ -91,7 +90,7 @@ const AboutClientPage = () => {
                             <p>We commit to the welfare, safety and health of people around us first.</p>
                         </div>
                     </div>
-                    <div className="values flex justify-center items-center gap-12 flex-wrap">
+                    <div className="values flex justify-center items-center gap-12 flex-wrap max-lg:gap-6">
                         <div className="card bg-white shadow-xl w-[350px] p-3 rounded-lg flex flex-col gap-2 relative pt-34">
                             <Image className='h-[80px] absolute top-5 right-5' src="/customer.svg" alt="" />
                             <h2 className="font-bold text-2xl">Customer Focus</h2>
@@ -123,18 +122,17 @@ const AboutClientPage = () => {
                             <p>We commit to the welfare, safety and health of people around us first.</p>
                         </div>
                     </div>
-                </div>
             </div>
 
 
                 <div className="content flex jsutify-center items-center gap-8 flex-col w-[90vw] mx-auto mt-24 mb-34">
                     <h3 className="font-semibold text-xl">The Members</h3>
-                    <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">Board of Directors</h1>
+                    <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block text-center">Board of Directors</h1>
                     <div className="achievments flex justify-center items-center gap-8 flex-wrap">
                         <div className="card bg-[#f0ebdc] w-[300px] p-3 rounded-lg flex flex-col gap-2 justify-center items-center shadow-xl">
                             <Image className='object-top rounded-lg h-[300px] w-[300px]' src="/founder.jpg" alt="" />
-                            <h2 className="text-xl">Arvind Karshan Sangar</h2>
-                            <p>Founder</p>
+                            <h2 className="text-xl font-semibold">Arvind Karshan Sangar</h2>
+                            <p>Founder and CEO</p>
                         </div>
                         
 
