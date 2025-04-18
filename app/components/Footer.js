@@ -13,7 +13,7 @@ const Footer = () => {
 
     	emailjs.sendForm(
       	"service_3k09epe",
-      	"template_qx6qf4v",
+      	"template_pnlv11r",
       	form.current,
       	"QnwRj8gbpAP_wSM-B"
     	)
