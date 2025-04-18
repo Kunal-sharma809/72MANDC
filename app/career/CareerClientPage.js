@@ -49,7 +49,7 @@ const CareerClientPage = () => {
                 }
             );
     };
-
+ 
     return (
         <div>
 
@@ -117,7 +117,10 @@ const CareerClientPage = () => {
                             </div>
                             <textarea className='py-3 px-5 rounded-lg bg-[#ece5cd] w-full h-32 resize-none outline-none' name="message" id="" placeholder='Enter your message' required></textarea>
 
+<<<<<<< HEAD
                             <label htmlFor="">Paste google drive link(Resume): </label>
+=======
+>>>>>>> d2dc276de7dc1b477d8f733d10dc4133ca630d37
                             <input className='py-3 px-5 rounded-lg bg-[#ece5cd] w-full outline-none' type="url" name="resume_link" placeholder="Paste your Google Drive resume link here" required />
 
                             <input className='bg-[#c7a74a] text-white w-fit px-8 py-3 rounded-lg cursor-pointer w-fit' type="submit" value={"Submit"} disabled={isSubmitting} />
