@@ -1,8 +1,33 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { useRef } from "react";
+import emailjs from "emailjs-com";
+
 
 const Footer = () => {
+	const form = useRef();
+
+  	const sendEmail = (e) => {
+    	e.preventDefault();
+
+    	emailjs.sendForm(
+      	"service_3k09epe",
+      	"template_qx6qf4v",
+      	form.current,
+      	"QnwRj8gbpAP_wSM-B"
+    	)
+    	.then(
+      	(result) => {
+        console.log(result.text);
+        alert("Message sent successfully ✅");
+      	},
+      	(error) => {
+        console.log(error.text);
+        alert("Oops! Something went wrong ❌");
+      }
+    );
+  };
   return (
     <div>
       <div className='first-half bg-[#b6d0bf] w-[90vw] rounded-lg relative mt-32 mx-auto p-14 flex justify-between items-center max-lg:p-8 max-lg:gap-8'>
@@ -15,8 +40,8 @@ const Footer = () => {
             <h3 className='font-semibold text-sm text-[#191e23b3]'>NEWSLETTER</h3>
             <h2 className='font-bold text-2xl max-lg:text-xl'>Receive the latest 72MANDC news updates directly in your inbox.</h2>
             <p className='text-sm'>Get the 72MANDC news first. Keep up with our latest news,investor updates, and media releases.</p>
-            <form className="submit bg-white w-fit p-1 rounded-lg mt-3">
-              <input className='px-4 py-2 outline-none' type="email" placeholder='Enter your email' required/>
+            <form ref={form} onSubmit={sendEmail} className="submit bg-white w-fit p-1 rounded-lg mt-3">
+              <input className='px-4 py-2 outline-none' type="email" placeholder='Enter your email'  name='user_email' required/>
               <input className='bg-[#c7a74a] p-2 rounded-lg mx-1 text-white' type="submit" value={"Subscribe"} />
             </form>
           </div>
