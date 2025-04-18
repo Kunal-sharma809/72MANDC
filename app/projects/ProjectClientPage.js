@@ -49,7 +49,7 @@ const ProjectClientPage = () => {
                     <div className="content flex jsutify-center items-center gap-5 flex-col w-[40vw] max-xl:w-[85vw]">
                         <h3 className="font-semibold text-xl">Our</h3>
                         <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">Ongoing Projects</h1>
-                        <p className="text-center mt-8">With nine active projects strategically spread across the length and breadth of India, we are steadfast in our mission to position the nation as a global leader in coal extraction. Each project reflects our commitment to innovation, sustainable practices, and powering India&apos;s future through responsible mining.</p>
+                        <p className="text-center mt-8">With three active projects strategically spread across the length and breadth of India, we are steadfast in our mission to position the nation as a global leader in coal extraction. Each project reflects our commitment to innovation, sustainable practices, and powering India&apos;s future through responsible mining.</p>
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@ const ProjectClientPage = () => {
                         <Image className="rounded-lg" src="/projects/projects_3.png" alt="" />
                     </div>
                     <div className="w-[40vw] max-xl:w-[70vw]">
-                        <div className="max-xl:text-center">
+                        <div>
                             <p>72MANDC continues to pioneer technical advances in mining. Global positioning satellites, real-time monitoring systems and computerized dispatching technologies improve operating efficiency by working hand in hand with skilled manpower. Our maintenance reliability program uses sophisticated analytics to enhance operator safety and equipment availability.</p>
                             <ul className='list-disc flex flex-col gap-5 mt-5 items-start'>
                                 <li>Procured equipment from the world&apos;s leading OEM&apos;S - Volvo, CAT, Komatsu, Sany, Hitachi, Wirtgen, Liebherr & Scania</li>

@@ -34,7 +34,7 @@ const Footer = () => {
               <Link href={"/about"}><li className='cursor-pointer'>About Us</li></Link>
               <Link href={"projects"}><li className='cursor-pointer'>Our Projects</li></Link>
               <Link href={"/sustainability"}><li className='cursor-pointer'>Sustainability</li></Link>
-              <Link href={"/news"}><li className='cursor-pointer'>News</li></Link>
+              <Link href={"/services"}><li className='cursor-pointer'>News</li></Link>
               <Link href={"/career"}><li className='cursor-pointer'>Career</li></Link>
               <Link href={"/contact"}><li className='cursor-pointer'>Contact Us</li></Link>
             </ul>

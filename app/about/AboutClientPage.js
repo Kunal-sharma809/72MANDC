@@ -51,10 +51,10 @@ const AboutClientPage = () => {
             </Element>
 
             <div className="flex flex-col justify-center items-center gap-12 bg-[#f0ebdc] shadow-xl w-[90vw] rounded-lg p-12 mx-auto">
-                <div className="glance flex justify-between items-center max-xl:flex-col max-xl:justify-center  max-xl:w-[80vw] max-xl:items-center max-xl:gap-5">
+                <div className="glance flex justify-between items-center w-[80vw] max-xl:flex-col max-xl:justify-center max-xl:items-center max-xl:gap-5">
                     <div className="content flex jsutify-center items-center gap-5 flex-col w-[40vw] max-xl:w-[70vw]">
                         <h3 className="font-semibold text-xl">At a Glance</h3>
-                        <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">72MANDC Across India</h1>
+                        <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block text-center">72MANDC Across India</h1>
                         <p className="max-xl:text-center">With 9 of our ongoing projects that include 4 MDO projects spread across the country, we are dedicated to making India a world-leading coal extractor. Our cost-effectiveness in completing mission-critical tasks on schedule has secured high productivity and profitability for our stakeholders time and time again.</p>
                     </div>
                     <div className="w-[500px] max-md:w-full">
@@ -62,38 +62,24 @@ const AboutClientPage = () => {
                     </div>
                 </div>
 
-                <div className="numbers flex gap-10 justify-center items-center font-arial py-6 flex-wrap">
+                <div className="numbers flex gap-10 justify-around w-[40vw] items-center font-arial py-6 flex-wrap">
                     <div>
-                        <h2 className='text-5xl font-bold text-[#407050]'>35+</h2>
+                        <h2 className='text-5xl font-bold text-[#407050]'>10+</h2>
                         <p>Years of Experience</p>
                     </div>
                     <div className="seperation h-8 w-[2px] bg-[#c7a74a]"></div>
                     <div>
-                        <h2 className='text-5xl font-bold text-[#407050]'>09</h2>
+                        <h2 className='text-5xl font-bold text-[#407050]'>03</h2>
                         <p>Ongoing Projects</p>
                     </div>
-                    <div className="seperation h-8 w-[2px] bg-[#c7a74a]"></div>
-                    <div>
-                        <h2 className='text-5xl font-bold text-[#407050]'>900+</h2>
-                        <p>Dump Trucks</p>
-                    </div>
-                    <div className="seperation h-8 w-[2px] bg-[#c7a74a]"></div>
-                    <div>
-                        <h2 className='text-5xl font-bold text-[#407050]'>8,000+</h2>
-                        <p>Employees</p>
-                    </div>
-                    <div className="seperation h-8 w-[2px] bg-[#c7a74a]"></div>
-                    <div>
-                        <h2 className='text-5xl font-bold text-[#407050]'>3,200Cr+</h2>
-                        <p>Annual Turnover</p>
-                    </div>
+                    
                 </div>
 
             </div>
 
             <div className="bg-gradient-to-t from-[#fcf7ea] to-[#fff] flex jsutify-center items-center mx-auto px-12 py-24">
                 <div className="content flex jsutify-center flex-col gap-8 mx-auto">
-                    <div className='flex justify-between items-center w-[75vw] mx-auto max-lg:flex-col max-lg:gap-5'>
+                    <div className='flex justify-between items-center w-[75vw] mx-auto max-lg:flex-col max-lg:gap-5 max-lg:justify-center'>
                         <div className='flex flex-col gap-3 text-center'>
                             <h3 className="font-semibold text-xl">About Us</h3>
                             <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">Our Values</h1>
@@ -141,45 +127,19 @@ const AboutClientPage = () => {
             </div>
 
 
-            <div className="members flex jsutify-center items-center w-[90vw] mx-auto mt-24 mb-34">
-                <div className="content flex jsutify-center items-center gap-8 flex-col w-[90vw] mx-auto">
+                <div className="content flex jsutify-center items-center gap-8 flex-col w-[90vw] mx-auto mt-24 mb-34">
                     <h3 className="font-semibold text-xl">The Members</h3>
                     <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">Board of Directors</h1>
-                    <div className="achievments flex justify-center items-center gap-10 flex-wrap">
-                        <div className="card bg-[#f0ebdc] w-[350px] p-3 rounded-lg flex flex-col gap-2 justify-center items-center shadow-xl">
-                            <Image className='object-cover rounded-lg h-[250px] w-[350px]' src="/avatar.avif" alt="" />
+                    <div className="achievments flex justify-center items-center gap-8 flex-wrap">
+                        <div className="card bg-[#f0ebdc] w-[300px] p-3 rounded-lg flex flex-col gap-2 justify-center items-center shadow-xl">
+                            <Image className='object-top rounded-lg h-[300px] w-[300px]' src="/founder.jpg" alt="" />
                             <h2 className="text-xl">Name</h2>
                             <p>Founder</p>
                         </div>
-                        <div className="card bg-[#f0ebdc] w-[350px] p-3 rounded-lg flex flex-col gap-2 justify-center items-center shadow-xl">
-                            <Image className='object-cover rounded-lg h-[250px] w-[350px]' src="/avatar.avif" alt="" />
-                            <h2 className="text-xl">Name</h2>
-                            <p>Co-Founder &amp; Managing Director</p>
-                        </div>
-                        <div className="card bg-[#f0ebdc] w-[350px] p-3 rounded-lg flex flex-col gap-2 justify-center items-center shadow-xl">
-                            <Image className='object-cover rounded-lg h-[250px] w-[350px]' src="/avatar.avif" alt="" />
-                            <h2 className="text-xl">Name</h2>
-                            <p>Co-Founder &amp; Sr. Director</p>
-                        </div>
-                        <div className="card bg-[#f0ebdc] w-[350px] p-3 rounded-lg flex flex-col gap-2 justify-center items-center shadow-xl">
-                            <Image className='object-cover rounded-lg h-[250px] w-[350px]' src="/avatar.avif" alt="" />
-                            <h2 className="text-xl">Name</h2>
-                            <p>Director</p>
-                        </div>
-                        <div className="card bg-[#f0ebdc] w-[350px] p-3 rounded-lg flex flex-col gap-2 justify-center items-center shadow-xl">
-                            <Image className='object-cover rounded-lg h-[250px] w-[350px]' src="/avatar.avif" alt="" />
-                            <h2 className="text-xl">Name</h2>
-                            <p>Director</p>
-                        </div>
-                        <div className="card bg-[#f0ebdc] w-[350px] p-3 rounded-lg flex flex-col gap-2 justify-center items-center shadow-xl">
-                            <Image className='object-cover rounded-lg h-[250px] w-[350px]' src="/avatar.avif" alt="" />
-                            <h2 className="text-xl">Name</h2>
-                            <p>Director</p>
-                        </div>
+                        
 
                     </div>
                 </div>
-            </div>
 
         </div>
     )

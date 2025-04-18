@@ -15,7 +15,7 @@ const Navbar = () => {
     const isActive = (href) => pathname === href ? "font-semibold" : "";
 
     return (
-        <nav className="bg-white fixed w-full z-20 top-0 start-0 border-b dark:bg-white dark:border-gray-700">
+        <nav className="bg-white fixed w-full z-20 top-0 start-0 border-b">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between p-4">
                 <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <Image src="/logo.jpg" className="h-8" alt="72MANDC Logo" />
@@ -37,7 +37,7 @@ const Navbar = () => {
                             { href: "/about", label: "About Us" },
                             { href: "/projects", label: "Our Projects" },
                             { href: "/sustainability", label: "Sustainability" },
-                            { href: "/news", label: "News" },
+                            { href: "/services", label: "Our Services" },
                             { href: "/career", label: "Career" },
                             { href: "/contact", label: "Contact Us" }
                         ].map(({ href, label }) => (

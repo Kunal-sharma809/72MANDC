@@ -32,14 +32,14 @@ const SustainabilityClientPage = () => {
           <div className="content flex jsutify-center items-center gap-5 flex-col w-[40vw] max-xl:w-[70vw]">
             <h3 className="font-semibold text-xl text-center">Environmental Safety</h3>
             <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">Nature Commitment</h1>
-            <p>72MANDC is an ISO 14001:2015 certified company that acknowledges and commits to being an environmentally sensitive company for all its on-site activities.</p>
+            <p>72MANDC acknowledges and commits to being an environmentally sensitive company for all its on-site activities.</p>
             <p>We seamlessly align our operational objectives & targets with the regulatory requirements of our Environmental Policy. Measurable performance indicators that impact energy and water consumption, wastes and waste streams, air and water quality, noise levels, first-aid and lost-time incidents are a major part of our day-to-day operations.Mining activities use generous amounts of energy to fulfil their daily tasks such as the transport of individuals, equipment, material, waste and debris. They also require extra ventilation and cooling, power refining, and metalworking. All these activities require monitoring as they have various impacts on the environment and as a responsible mining company, 72MANDC commits to making the mining site environmentally inhabitable for all the individuals and elements on site and also around.</p>
           </div>
 
         </div>
       </Element>
 
-      <div className="social_governance flex jsutify-center items-center w-[90vw] mx-auto mt-34 mb-34">
+      {/* <div className="social_governance flex jsutify-center items-center w-[90vw] mx-auto mt-34 mb-34">
         <div className="content flex jsutify-center items-center gap-8 flex-col w-[90vw] mx-auto">
           <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">Social-Governance</h1>
           <div className="achievments flex justify-center items-center gap-18 flex-wrap">
@@ -60,7 +60,7 @@ const SustainabilityClientPage = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="about w-full bg-gradient-to-t from-[#fcf7ea] to-[#fff] py-22 px-14 flex flex-col items-center justify-center gap-34">
         <div className="health flex justify-between w-[85vw] max-xl:flex-col max-xl:gap-8 max-xl:items-center">

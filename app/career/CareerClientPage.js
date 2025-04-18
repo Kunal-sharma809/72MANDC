@@ -4,21 +4,28 @@ import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import Image from 'next/image';
 import { Link, Element } from 'react-scroll';
+import { useForm } from "react-hook-form"
 
 const CareerClientPage = () => {
     const form = useRef();
     const [fileBase64, setFileBase64] = useState('');
+    const {
+        register,
+        handleSubmit,
+        setError,
+        formState: {errors, isSubmitting },
+    } = useForm();
 
     const handleFileChange = (e) => {
         const file = e.target.files[0];
         const reader = new FileReader();
 
         reader.onloadend = () => {
-            setFileBase64(reader.result); // base64 string
+            setFileBase64(reader.result); // Save base64 string
         };
 
         if (file) {
-            reader.readAsDataURL(file);
+            reader.readAsDataURL(file); // Convert to base64
         }
     };
 
@@ -62,7 +69,7 @@ const CareerClientPage = () => {
             </div>
 
             <Element name="aboutSection">
-                <div className="about w-full bg-gradient-to-b from-[#fcf7ea] to-[#fff] py-22 px-14 flex flex-col justify-center gap-34">
+                <div className="about w-full bg-gradient-to-b from-[#fcf7ea] to-[#fff] py-22 px-14 flex flex-col justify-center gap-34 items-center">
                     <div className="health flex justify-between w-[85vw] max-xl:flex-col max-xl:gap-8 max-xl:items-center">
                         <div className="content flex jsutify-center items-center gap-5 flex-col w-[40vw] max-xl:w-[85vw] mx-auto">
                             <h3 className="font-semibold text-xl">Why</h3>
@@ -98,6 +105,8 @@ const CareerClientPage = () => {
                             <h2 className='text-2xl'>Send Us A Message</h2>
                             <p>If your question isn&apos;t answered here, or elsewhere on this site, please send us a message. We will contact you soon.</p>
                         </div>
+
+                        { isSubmitting && <div>Loading...</div>}
                         <form ref={form} onSubmit={sendEmail} action="" className='flex flex-col flex-wrap gap-4'>
                             <div className='flex gap-6 justify-between w-full max-lg:flex-wrap'>
                                 <input className='py-3 px-5 rounded-lg bg-[#ece5cd] w-full outline-none max-lg:w-full' type="text" placeholder='Enter your name' name='user_name' required />
@@ -107,13 +116,11 @@ const CareerClientPage = () => {
                                 <input className='py-3 px-5 rounded-lg bg-[#ece5cd] w-[48%] outline-none max-lg:w-full' name='user_email' type="email" placeholder='Enter your email' required />
                             </div>
                             <textarea className='py-3 px-5 rounded-lg bg-[#ece5cd] w-full h-32 resize-none outline-none' name="message" id="" placeholder='Enter your message' required></textarea>
-                            <div className='bg-[#c7a74a] flex items-center gap-3 text-white w-fit px-5 py-3 rounded-lg cursor-pointer'>
-                                <Image src="/career/upload.svg" alt="" />
-                                <label htmlFor="file-upload">Upload Resume: </label>
-                                <input type="file" onChange={handleFileChange} />
-                                <input type="hidden" name="file_base64" value={fileBase64} />
-                            </div>
-                            <input className='bg-[#c7a74a] text-white w-fit px-8 py-3 rounded-lg cursor-pointer' type="submit" value={"Submit"} />
+
+                            <label htmlFor="">Paste google drive link(Resume): </label>
+                            <input className='py-3 px-5 rounded-lg bg-[#ece5cd] w-full outline-none' type="url" name="resume_link" placeholder="Paste your Google Drive resume link here" required />
+
+                            <input className='bg-[#c7a74a] text-white w-fit px-8 py-3 rounded-lg cursor-pointer w-fit' type="submit" value={"Submit"} disabled={isSubmitting} />
                         </form>
                     </div>
                 </div>
