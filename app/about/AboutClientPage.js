@@ -40,11 +40,8 @@ const AboutClientPage = () => {
                     <div className="content flex jsutify-center items-center gap-8 flex-col w-[90vw]">
                         <h3 className="font-semibold text-xl">Our Story</h3>
                         <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block text-center">72MANDC&apos;S Journey</h1>
-                        <p className='text-center'>Envisioned in 1988 , We&apos;ve been advancing and contributing to industries, communities, and economies all across India.</p>
-                        <div className=''>
-                            <Image className='max-md:hidden' src="/journey.svg" alt="" />
-                            <Image className='md:hidden w-[85vw]' src="/journey_2.svg" alt="" />
-                        </div>
+                        <p className='text-center'>Envisioned in 2015 , We&apos;ve been advancing and contributing to industries, communities, and economies all across India.</p>
+                        
                     </div>
                 </div>
             </div>
