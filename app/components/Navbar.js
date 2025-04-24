@@ -38,6 +38,7 @@ const Navbar = () => {
                             { href: "/projects", label: "Our Projects" },
                             { href: "/sustainability", label: "Sustainability" },
                             { href: "/services", label: "Our Services" },
+                            { href: "/products", label: "Products" },
                             { href: "/career", label: "Career" },
                             { href: "/contact", label: "Contact Us" }
                         ].map(({ href, label }) => (

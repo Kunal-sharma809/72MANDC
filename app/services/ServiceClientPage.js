@@ -50,9 +50,8 @@ const ServiceClientPage = () => {
                 </div>
             </Element>
 
-            <div className="commendation flex jsutify-center items-center w-[80vw] mx-auto mt-24 mb-34">
+            <div className="flex justify-center items-center w-[80vw] mx-auto mt-24 mb-34 max-md:w-[85vw]">
                 <Image className='rounded-lg' src="/service/photo_5.jpg" alt="" />
-
             </div>
 
             <div className="technology flex flex-col jsutify-center items-center w-[90vw] mx-auto mt-12 mb-34 bg-[#ece5cd] py-16 px-16 max-lg:px-8">
@@ -63,40 +62,45 @@ const ServiceClientPage = () => {
                     <div>
                         <p>At 72 Minerals & Chemical, we&apos;re proud to be a reliable name in bentonite handling and transportation since 2018, based in Sherdi, Mandvi (Kutch). With over 7 years of experience and trusted mine connections, here&apos;s how we serve our clients:</p>
                         <div className='flex justify-center items-center'>
-                        <ul className='list-disc flex flex-col gap-4 mt-5 justify-center'>
-                            <li>
-                                <span className='text-lg font-bold'>🚛 Transportation Services: </span>
-                                <p>We provide reliable transportation of bentonite and other powder materials via both road and rail networks.</p>
-                            </li>
-                            <li>
-                                <span className='text-lg font-bold'>⛏️ Rake Loading & Material Handling: </span>
-                                <p>Efficient and well-managed loading operations at mining sites with end-to-end handling support.</p>
-                            </li>
-                            <li>
-                                <span className='text-lg font-bold'>🧪 Calcium Bentonite Powder: </span>
-                                <p>Naturally sourced calcium bentonite powder (Grade 8 to 12) used in a wide range of industrial applications..</p>
-                            </li>
-                            <li>
-                                <span className='text-lg font-bold'>💧 Sodium Bentonite Powder: </span>
-                                <p>High swelling grade available in 22 to 38 grade, ideal for drilling and sealing.</p>
-                            </li>
-                            <li>
-                                <span className='text-lg font-bold'>📦 Bulk Supply of Powder Materials: </span>
-                                <p>We ensure large-scale, consistent supply of bentonite and related materials with timely delivery.</p>
-                            </li>
-                            <li>
-                                <span className='text-lg font-bold'>🏞️ Mines We Work With: </span>
-                                <p>Direct access to top-quality bentonite from Hamla, Vandh, Kotdi, and Laxmipar mines — trusted sources for over a decade.</p>
-                            </li>
-                            <li>
-                                <span className='text-lg font-bold'>👷‍♂️ Skilled Workforce: </span>
-                                <p>Dedicated manpower for monitoring material from the point of loading to the final destination — ensuring smooth operations throughout.</p>
-                            </li>
-                        </ul>
+                            <ul className='list-disc flex flex-col gap-4 mt-5 justify-center'>
+                                <li>
+                                    <span className='text-lg font-bold'>🚛 Transportation Services: </span>
+                                    <p>We provide reliable transportation of bentonite and other powder materials via both road and rail networks.</p>
+                                </li>
+                                <li>
+                                    <span className='text-lg font-bold'>⛏️ Rake Loading & Material Handling: </span>
+                                    <p>Efficient and well-managed loading operations at mining sites with end-to-end handling support.</p>
+                                </li>
+                                <li>
+                                    <span className='text-lg font-bold'>🧪 Calcium Bentonite Powder: </span>
+                                    <p>Naturally sourced calcium bentonite powder (Grade 8 to 12) used in a wide range of industrial applications..</p>
+                                </li>
+                                <li>
+                                    <span className='text-lg font-bold'>💧 Sodium Bentonite Powder: </span>
+                                    <p>High swelling grade available in 22 to 38 grade, ideal for drilling and sealing.</p>
+                                </li>
+                                <li>
+                                    <span className='text-lg font-bold'>📦 Bulk Supply of Powder Materials: </span>
+                                    <p>We ensure large-scale, consistent supply of bentonite and related materials with timely delivery.</p>
+                                </li>
+                                <li>
+                                    <span className='text-lg font-bold'>🏞️ Mines We Work With: </span>
+                                    <p>Direct access to top-quality bentonite from Hamla, Vandh, Kotdi, and Laxmipar mines — trusted sources for over a decade.</p>
+                                </li>
+                                <li>
+                                    <span className='text-lg font-bold'>👷‍♂️ Skilled Workforce: </span>
+                                    <p>Dedicated manpower for monitoring material from the point of loading to the final destination — ensuring smooth operations throughout.</p>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
+                <div className="flex justify-center items-center w-[70vw] mt-16 mb-14 max-md:w-[85vw]">
+                    <Image className='rounded-lg' src="/service/services.jpg" alt="" />
+                </div>
             </div>
+
+
 
 
         </div>

@@ -44,7 +44,7 @@ const ProjectClientPage = () => {
 
                 <div className="ongoing_projects flex justify-between w-[85vw] max-xl:flex-col max-xl:gap-8 max-xl:items-center">
                     <div className="w-[448px] max-md:w-full">
-                        <Image className="rounded-lg" src="/projects/ongoing_projects.png" alt="" />
+                        <Image className="rounded-lg object-left" src="/projects/factory.jpg" alt="" />
                     </div>
                     <div className="content flex jsutify-center items-center gap-5 flex-col w-[40vw] max-xl:w-[85vw]">
                         <h3 className="font-semibold text-xl">Our</h3>
