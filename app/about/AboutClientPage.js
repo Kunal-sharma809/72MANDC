@@ -52,7 +52,7 @@ const AboutClientPage = () => {
                     <div className="content flex jsutify-center items-center gap-5 flex-col w-[40vw] max-xl:w-[70vw]">
                         <h3 className="font-semibold text-xl">At a Glance</h3>
                         <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block text-center">72MANDC Across India</h1>
-                        <p className="max-xl:text-center">With 9 of our ongoing projects that include 4 MDO projects spread across the country, we are dedicated to making India a world-leading coal extractor. Our cost-effectiveness in completing mission-critical tasks on schedule has secured high productivity and profitability for our stakeholders time and time again.</p>
+                        <p className="max-xl:text-center">With 3 of our ongoing projects, we are dedicated to making India a world-leading coal extractor. Our cost-effectiveness in completing mission-critical tasks on schedule has secured high productivity and profitability for our stakeholders time and time again.</p>
                     </div>
                     <div className="w-[500px] max-md:w-full">
                         <Image className="rounded-lg" src="/presence.png" alt="" />
