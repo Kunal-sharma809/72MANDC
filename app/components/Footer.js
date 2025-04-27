@@ -34,7 +34,7 @@ const Footer = () => {
       <div className='first-half bg-[#b6d0bf] w-[90vw] rounded-lg relative mt-32 mx-auto p-14 flex justify-between items-center max-lg:p-8 max-lg:gap-8'>
 
         <div className="container flex justify-between gap-12 w-[95vw] max-md:flex-col max-md:h-[400px]">
-          <Image className='w-[40%] absolute -top-[30%] max-xl:-top-[20%] shadow-lg max-md:w-[80%]' src="/footer_section.png" alt="" />
+          <Image className='w-[40%] absolute -top-[30%] max-xl:-top-[20%] shadow-lg max-md:w-[80%]' src="/footer_section.jpg" alt="" />
           <div className='h-[40%]'></div>
 
           <div className="content w-[50%] flex flex-col gap-2 max-xl:right-8 max-lg:gap-0 max-md:absolute max-md:bottom-10 max-md:w-[80%]">
