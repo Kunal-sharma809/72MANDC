@@ -60,7 +60,7 @@ export default function Home() {
           <p className="max-xl:text-center">With 03 of our ongoing projects spread across the country, we are dedicated to making India a world-leading bentonite extractor. Our cost-effectiveness in completing mission-critical tasks on schedule has secured high productivity and profitability for our stakeholders time and time again.</p>
         </div>
         <div className="w-[500px] max-md:w-full">
-          <Image className="rounded-lg" src="/presence.png" alt="" />
+          <Image className="rounded-lg" src="/presence.jpg" alt="" />
         </div>
       </div>
 
