@@ -59,8 +59,8 @@ export default function Home() {
           <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block text-center">72MANDC Across India</h1>
           <p className="max-xl:text-center">With 03 of our ongoing projects spread across the country, we are dedicated to making India a world-leading bentonite extractor. Our cost-effectiveness in completing mission-critical tasks on schedule has secured high productivity and profitability for our stakeholders time and time again.</p>
         </div>
-        <div className="w-[500px] max-md:w-full">
-          <Image className="rounded-lg" src="/presence.jpg" alt="" />
+        <div className="w-[500px] max-md:w-[70vw]">
+          <Image className="rounded-lg w-[500px] max-md:w-[70vw]" src="/presence.jpg" alt="" />
         </div>
       </div>
 
