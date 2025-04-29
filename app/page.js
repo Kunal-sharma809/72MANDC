@@ -35,13 +35,13 @@ export default function Home() {
               <a href={"/about"} className="text-[#7e651c] font-semibold">Know More</a>
             </div>
             <div className="w-[448px] max-xl:hidden">
-              <Image className="rounded-lg" src="/mining_photo.jpeg" alt="" />
+              <Image className="rounded-lg w-[448px] max-xl:hidden" src="/mining_photo.jpeg" alt="" />
             </div>
           </div>
 
           <div className="container flex justify-between w-[90vw] mx-auto max-lg:flex-col max-lg:justify-center max-lg:mx-auto max-lg:w-[80vw] max-lg:items-center max-lg:gap-5 max-md:px-8">
             <div className="w-[500px] max-md:w-full">
-              <Image className="rounded-lg" src="/mining_photo_2.png" alt="" />
+              <Image className="rounded-lg w-[500px] max-md:w-[70vw]" src="/mining_photo_2.png" alt="" />
             </div>
             <div className="content flex jsutify-center items-center gap-5 flex-col w-[40vw] max-lg:w-[80vw]">
               <h3 className="font-semibold text-xl">What we do</h3>
@@ -65,8 +65,8 @@ export default function Home() {
       </div>
 
       <div className="environment bg-gradient-to-t from-[#fcf7ea] to-[#fff] py-22 px-14 flex items-center justify-center gap-24 mx-auto mt-14 max-xl:flex-col max-xl:justify-center max-xl:mx-auto max-xl:w-[80vw] max-xl:items-center max-xl:gap-5 max-xl:px-4">
-        <div className="w-[500px] max-md:w-full">
-          <Image className="rounded-lg" src="/environment.png" alt="" />
+        <div className="w-[500px] max-md:w-[70vw]">
+          <Image className="rounded-lg w-[500px] max-md:w-[70vw]" src="/environment.png" alt="" />
         </div>
         <div className="content flex jsutify-center items-center gap-5 flex-col w-[40vw] max-xl:w-[70vw]">
           <h3 className="font-semibold text-xl text-center">Environmental Safety</h3>
