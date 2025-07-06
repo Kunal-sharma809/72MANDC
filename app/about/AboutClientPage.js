@@ -55,7 +55,11 @@ const AboutClientPage = () => {
                         <p className="max-xl:text-center">With 3 of our ongoing projects that include 4 MDO projects spread across the country, we are dedicated to making India a world-leading coal extractor. Our cost-effectiveness in completing mission-critical tasks on schedule has secured high productivity and profitability for our stakeholders time and time again.</p>
                     </div>
                     <div className="w-[500px] max-md:w-full">
+<<<<<<< HEAD
                         <Image className="rounded-lg" src="/presence.jpg" alt="" />
+=======
+                        <Image className="rounded-lg w-full" src="/presence.jpg" alt="" />
+>>>>>>> 915d9d50c5b39cc6b1a11f6eddde37bc68ae6a45
                     </div>
                 </div>
 

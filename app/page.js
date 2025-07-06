@@ -35,13 +35,17 @@ export default function Home() {
               <a href={"/about"} className="text-[#7e651c] font-semibold">Know More</a>
             </div>
             <div className="w-[448px] max-xl:hidden">
-              <Image className="rounded-lg" src="/mining_photo.jpeg" alt="" />
+              <Image className="rounded-lg w-[448px] max-xl:hidden" src="/mining_photo.jpeg" alt="" />
             </div>
           </div>
 
           <div className="container flex justify-between w-[90vw] mx-auto max-lg:flex-col max-lg:justify-center max-lg:mx-auto max-lg:w-[80vw] max-lg:items-center max-lg:gap-5 max-md:px-8">
             <div className="w-[500px] max-md:w-full">
+<<<<<<< HEAD
               <Image className="rounded-lg object-cover" src="/mining_photo_2.jpg" alt="" />
+=======
+              <Image className="rounded-lg w-[500px] max-md:w-[70vw]" src="/mining_photo_2.png" alt="" />
+>>>>>>> 915d9d50c5b39cc6b1a11f6eddde37bc68ae6a45
             </div>
             <div className="content flex jsutify-center items-center gap-5 flex-col w-[40vw] max-lg:w-[80vw]">
               <h3 className="font-semibold text-xl">What we do</h3>
@@ -59,14 +63,19 @@ export default function Home() {
           <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block text-center">72MANDC Across India</h1>
           <p className="max-xl:text-center">With 03 of our ongoing projects spread across the country, we are dedicated to making India a world-leading bentonite extractor. Our cost-effectiveness in completing mission-critical tasks on schedule has secured high productivity and profitability for our stakeholders time and time again.</p>
         </div>
+<<<<<<< HEAD
         <div className="w-[500px] max-md:w-full">
           <Image className="rounded-lg" src="/presence.jpg" alt="" />
+=======
+        <div className="w-[500px] max-md:w-[70vw]">
+          <Image className="rounded-lg w-[500px] max-md:w-[70vw]" src="/presence.jpg" alt="" />
+>>>>>>> 915d9d50c5b39cc6b1a11f6eddde37bc68ae6a45
         </div>
       </div>
 
       <div className="environment bg-gradient-to-t from-[#fcf7ea] to-[#fff] py-22 px-14 flex items-center justify-center gap-24 mx-auto mt-14 max-xl:flex-col max-xl:justify-center max-xl:mx-auto max-xl:w-[80vw] max-xl:items-center max-xl:gap-5 max-xl:px-4">
-        <div className="w-[500px] max-md:w-full">
-          <Image className="rounded-lg" src="/environment.png" alt="" />
+        <div className="w-[500px] max-md:w-[70vw]">
+          <Image className="rounded-lg w-[500px] max-md:w-[70vw]" src="/environment.png" alt="" />
         </div>
         <div className="content flex jsutify-center items-center gap-5 flex-col w-[40vw] max-xl:w-[70vw]">
           <h3 className="font-semibold text-xl text-center">Environmental Safety</h3>

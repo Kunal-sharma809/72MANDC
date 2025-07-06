@@ -78,7 +78,7 @@ const CareerClientPage = () => {
                                 <ul className='list-disc flex flex-col gap-5 mt-5 items-start'>
                                     <li>We want you to bring your diligence, commitment, and creative thinking to this place. You can have a challenging, flexible, and exciting career at 72MANDC that leads you in the direction you desire.</li>
                                     <li>We are dedicated to creating a welcoming environment where people can be genuine. We want our staff to believe that all opinions are valued, all cultures are respected, and that different points of view are not only acceptable but also crucial to our success</li>
-                                    <li>Regardless of race, gender, nationality, ethnicity, religion, age, sexual orientation, or anything else that distinguishes us from one another, we treat one another equally and with decency.</li>
+                                    
                                 </ul>
                             </div>
                         </div>
