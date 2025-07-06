@@ -30,11 +30,11 @@ const ServiceClientPage = () => {
                         <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">Bentonite and Bauxite</h1>
                         <div className="achievments flex justify-center items-center gap-3 flex-wrap">
                             <div className="card w-[320px] p-3 rounded-lg flex flex-col gap-2">
-                                <Image className='rounded-lg shadow-xl' src="/service/photo_1.jpeg" alt="" />
+                                <Image className='rounded-lg shadow-xl' src="/service/photo_1.jpg" alt="" />
                                 <p className=" font-poppins"><span className='font-bold text-xl'>Hamla Mines</span> - Rich in high-quality bentonite, ideal for industrial-grade applications.</p>
                             </div>
                             <div className="card w-[320px] p-3 rounded-lg flex flex-col gap-2">
-                                <Image className='rounded-lg shadow-xl' src="/service/photo_2.jpeg" alt="" />
+                                <Image className='rounded-lg shadow-xl' src="/service/photo_2.jpg" alt="" />
                                 <p className=" font-poppins"><span className='font-bold text-xl'>Vandh Mines</span> - Produces premium bentonite with excellent swelling and bonding properties.</p>
                             </div>
                             <div className="card w-[320px] p-3 rounded-lg flex flex-col gap-2">
@@ -95,8 +95,12 @@ const ServiceClientPage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex justify-center items-center w-[70vw] mt-16 mb-14 max-md:w-[85vw]">
+                <div className="flex justify-center items-center w-[70vw] mt-16 mb-8 max-md:w-[85vw]">
                     <Image className='rounded-lg' src="/service/services.jpg" alt="" />
+                </div>
+                <div className="flex justify-center items-center gap-12 w-[30vw] max-md:w-[75vw] max-md:flex-wrap">
+                    <Image className='rounded-lg' src="/service/photo_1.jpg" alt="" />
+                    <Image className='rounded-lg' src="/service/photo_2.jpg" alt="" />
                 </div>
             </div>
 

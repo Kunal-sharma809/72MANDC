@@ -25,35 +25,43 @@ const ProjectClientPage = () => {
             </div>
 
             <Element name="aboutSection">
-            <div className="about w-full bg-gradient-to-b from-[#fcf7ea] to-[#fff] py-22 px-14 flex flex-col items-center justify-center gap-34">
-                <div className="projects flex justify-between w-[85vw] max-xl:flex-col max-xl:gap-8 max-xl:items-center">
-                    <div className="content flex jsutify-center items-center gap-5 flex-col w-[40vw] max-xl:w-[85vw] mx-auto">
-                        <h3 className="font-semibold text-xl">Our Projects</h3>
-                        <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block text-center">Our Completed Projects</h1>
-                        <p className='text-center mt-3'>Spanning over 18 locations, 72MANDC has successfully completed 50 projects both locally and internationally with utmost efficiency, environmental care and significant employment contribution to the society.</p>
-                        <div className='flex gap-2 items-center mt-8'>
-                            <h2 className='text-4xl text-[#407050] font-[900]'>50+</h2>
-                            <p>Completed Projects</p>
+                <div className="about w-full bg-gradient-to-b from-[#fcf7ea] to-[#fff] py-22 px-14 flex flex-col items-center justify-center gap-34">
+                    <div className="projects flex justify-between w-[85vw] max-xl:flex-col max-xl:gap-8 max-xl:items-center">
+                        <div className="content flex jsutify-center items-center gap-5 flex-col w-[40vw] max-xl:w-[85vw] mx-auto">
+                            <h3 className="font-semibold text-xl">Our Projects</h3>
+                            <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block text-center">Our Completed Projects</h1>
+                            <p className='text-center mt-3'>Spanning over 18 locations, 72MANDC has successfully completed 50 projects both locally and internationally with utmost efficiency, environmental care and significant employment contribution to the society.</p>
+                            <div className='flex gap-2 items-center mt-8'>
+                                <h2 className='text-4xl text-[#407050] font-[900]'>50+</h2>
+                                <p>Completed Projects</p>
+                            </div>
+                        </div>
+                        <div className="w-[448px] max-md:w-full">
+                            <Image className="rounded-lg " src="/projects/photo_1.jpg" alt="" />
                         </div>
                     </div>
-                    <div className="w-[448px] max-md:w-full">
-                        <Image className="rounded-lg" src="/projects/projects_2.png" alt="" />
+
+
+                    <div className="ongoing_projects flex justify-between w-[85vw] max-xl:flex-col max-xl:gap-8 max-xl:items-center">
+                        <div className="w-[448px] max-md:w-full">
+                            <Image className="rounded-lg object-center" src="/projects/photo_3.jpg" alt="" />
+                        </div>
+                        <div className="content flex jsutify-center items-center gap-5 flex-col w-[40vw] max-xl:w-[85vw]">
+                            <h3 className="font-semibold text-xl">Our</h3>
+                            <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">Ongoing Projects</h1>
+                            <p className="text-center mt-8">With three active projects strategically spread across the length and breadth of India, we are steadfast in our mission to position the nation as a global leader in coal extraction. Each project reflects our commitment to innovation, sustainable practices, and powering India&apos;s future through responsible mining.</p>
+                        </div>
                     </div>
                 </div>
-
-
-                <div className="ongoing_projects flex justify-between w-[85vw] max-xl:flex-col max-xl:gap-8 max-xl:items-center">
-                    <div className="w-[448px] max-md:w-full">
-                        <Image className="rounded-lg object-left" src="/projects/factory.jpg" alt="" />
-                    </div>
-                    <div className="content flex jsutify-center items-center gap-5 flex-col w-[40vw] max-xl:w-[85vw]">
-                        <h3 className="font-semibold text-xl">Our</h3>
-                        <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">Ongoing Projects</h1>
-                        <p className="text-center mt-8">With three active projects strategically spread across the length and breadth of India, we are steadfast in our mission to position the nation as a global leader in coal extraction. Each project reflects our commitment to innovation, sustainable practices, and powering India&apos;s future through responsible mining.</p>
-                    </div>
+            </Element>
+            <div className="ongoing_projects mx-auto flex justify-between w-[80vw] max-xl:flex-col max-xl:gap-8 max-xl:items-center">
+                <div className="w-[550px] max-md:w-full">
+                    <Image className="rounded-lg object-center" src="/projects/photo_2.jpg" alt="" />
+                </div>
+                <div className="w-[550px] h-[336px] max-md:w-full">
+                    <Image className="rounded-lg object-cover w-[550px] h-[412px]" src="/projects/photo_4.jpg" alt="" />
                 </div>
             </div>
-            </Element>
 
 
             <div className="technology flex flex-col jsutify-center items-center w-[90vw] mx-auto mt-12 mb-34 bg-[#ece5cd] py-16 px-16 max-lg:px-8">

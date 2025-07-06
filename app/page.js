@@ -41,7 +41,7 @@ export default function Home() {
 
           <div className="container flex justify-between w-[90vw] mx-auto max-lg:flex-col max-lg:justify-center max-lg:mx-auto max-lg:w-[80vw] max-lg:items-center max-lg:gap-5 max-md:px-8">
             <div className="w-[500px] max-md:w-full">
-              <Image className="rounded-lg" src="/mining_photo_2.png" alt="" />
+              <Image className="rounded-lg object-cover" src="/mining_photo_2.jpg" alt="" />
             </div>
             <div className="content flex jsutify-center items-center gap-5 flex-col w-[40vw] max-lg:w-[80vw]">
               <h3 className="font-semibold text-xl">What we do</h3>
@@ -60,7 +60,7 @@ export default function Home() {
           <p className="max-xl:text-center">With 03 of our ongoing projects spread across the country, we are dedicated to making India a world-leading bentonite extractor. Our cost-effectiveness in completing mission-critical tasks on schedule has secured high productivity and profitability for our stakeholders time and time again.</p>
         </div>
         <div className="w-[500px] max-md:w-full">
-          <Image className="rounded-lg" src="/presence.png" alt="" />
+          <Image className="rounded-lg" src="/presence.jpg" alt="" />
         </div>
       </div>
 

@@ -70,22 +70,19 @@ const SustainabilityClientPage = () => {
             <div className='mt-3'>
               <ul className='list-disc flex flex-col gap-5 mt-5 items-start'>
                 <li>Safety Is of utmost priority at 72MANDC. Every day, at every operating location, we strive for zero incidents, accidents, occupational diseases, or property damage.</li>
-                <li>72MANDC provides cutting-edge training that surpasses state safety requirements.</li>
-                <li>Personal accountability continues to be critical to our success, with employees at all levels adhering to our shared safety practices, behaviour, and vision.</li>
                 <li>Hundreds of safety observations are undertaken across 72MANDC on a daily basis to identify best practises and rapidly remedy potentially hazardous behaviours.</li>
-                <li>We also work with government authorities to promote safety technology and best practices in order to achieve our objective  of zero accidents.</li>
               </ul>
             </div>
           </div>
           <div className="w-[448px] max-md:w-full">
-            <Image className="rounded-lg" src="/sustainability/photo_4.png" alt="" />
+            <Image className="rounded-lg h-[300px] object-cover" src="/sustainability/photo_4.jpg" alt="" />
           </div>
         </div>
 
 
         <div className="ecosystem flex justify-between w-[85vw] max-xl:flex-col max-xl:gap-8 max-xl:items-center">
-          <div className="w-[448px] max-md:w-full">
-            <Image className="rounded-lg" src="/sustainability/photo_5.png" alt="" />
+          <div className="max-md:w-full">
+            <Image className="rounded-lg object-cover w-[550px] h-[350px]" src="/sustainability/photo_5.jpg" alt="" />
           </div>
           <div className="content flex jsutify-center items-center gap-5 flex-col w-[40vw] max-xl:w-[85vw]">
             <h3 className="font-semibold text-xl">Our Corporate Social Responsibility</h3>
