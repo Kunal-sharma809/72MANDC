@@ -56,11 +56,7 @@ const ContactClientPage = () => {
                         <div className="flex flex-col gap-8">
                             <div className='flex items-center gap-4 max-lg:gap-8'>
                                 <Image src="/phone.svg" alt="" />
-<<<<<<< HEAD
                                 <span>+91 9879785539, +91 8376024257, 9313300677</span>
-=======
-                                <span>+91 9879785539, 9313300677, +91 83760 24257</span>
->>>>>>> 915d9d50c5b39cc6b1a11f6eddde37bc68ae6a45
                             </div>
                             <div className='flex items-center gap-4 max-lg:gap-8'>
                                 <Image src="/email.svg" alt="" />

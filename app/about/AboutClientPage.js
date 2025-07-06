@@ -22,29 +22,29 @@ const AboutClientPage = () => {
 
 
             <Element name="aboutSection">
-            <div className="about w-full bg-gradient-to-b from-[#fcf7ea] to-[#fff] py-22 px-14 flex flex-col items-center justify-center gap-34">
-                <div className="vision flex justify-between w-[85vw] max-xl:flex-col max-xl:gap-8 max-xl:items-center">
-                    <div className="content flex jsutify-center items-center gap-5 flex-col w-[45vw] max-xl:w-[85vw]">
-                        <h3 className="font-semibold text-xl">Our Foundation</h3>
-                        <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">Our Vision</h1>
-                        <p className='text-center'>We envision 72MANDC becoming the most trusted and preferred Mining Company Globally</p>
-                        <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">Our Mission</h1>
-                        <p className='text-center'>We are on a journey to become India&apos;s leading Mining Company by  2025 and provide value to its stakeholders by continuing our core principles of Quality, Safety and Accountability.</p>
+                <div className="about w-full bg-gradient-to-b from-[#fcf7ea] to-[#fff] py-22 px-14 flex flex-col items-center justify-center gap-34">
+                    <div className="vision flex justify-between w-[85vw] max-xl:flex-col max-xl:gap-8 max-xl:items-center">
+                        <div className="content flex jsutify-center items-center gap-5 flex-col w-[45vw] max-xl:w-[85vw]">
+                            <h3 className="font-semibold text-xl">Our Foundation</h3>
+                            <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">Our Vision</h1>
+                            <p className='text-center'>We envision 72MANDC becoming the most trusted and preferred Mining Company Globally</p>
+                            <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block">Our Mission</h1>
+                            <p className='text-center'>We are on a journey to become India&apos;s leading Mining Company by  2025 and provide value to its stakeholders by continuing our core principles of Quality, Safety and Accountability.</p>
+                        </div>
+                        <div className="w-[448px] max-md:w-full">
+                            <Image className="rounded-lg" src="/mining_photo.jpeg" alt="" />
+                        </div>
                     </div>
-                    <div className="w-[448px] max-md:w-full">
-                        <Image className="rounded-lg" src="/mining_photo.jpeg" alt="" />
-                    </div>
-                </div>
 
-                <div className="story flex jsutify-center items-center gap-8 w-[90vw]">
-                    <div className="content flex jsutify-center items-center gap-8 flex-col w-[90vw]">
-                        <h3 className="font-semibold text-xl">Our Story</h3>
-                        <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block text-center">72MANDC&apos;S Journey</h1>
-                        <p className='text-center'>Envisioned in 2015 , We&apos;ve been advancing and contributing to industries, communities, and economies all across India.</p>
-                        
+                    <div className="story flex jsutify-center items-center gap-8 w-[90vw]">
+                        <div className="content flex jsutify-center items-center gap-8 flex-col w-[90vw]">
+                            <h3 className="font-semibold text-xl">Our Story</h3>
+                            <h1 className="font-[800] text-4xl bg-gradient-to-r from-[#407050] via-[#76702c] to-[#b99d4ab0] text-transparent bg-clip-text inline-block text-center">72MANDC&apos;S Journey</h1>
+                            <p className='text-center'>Envisioned in 2015 , We&apos;ve been advancing and contributing to industries, communities, and economies all across India.</p>
+
+                        </div>
                     </div>
                 </div>
-            </div>
             </Element>
 
             <div className="flex flex-col justify-center items-center gap-12 bg-[#f0ebdc] shadow-xl w-[90vw] rounded-lg p-12 mx-auto">
@@ -55,28 +55,24 @@ const AboutClientPage = () => {
                         <p className="max-xl:text-center">With 3 of our ongoing projects that include 4 MDO projects spread across the country, we are dedicated to making India a world-leading coal extractor. Our cost-effectiveness in completing mission-critical tasks on schedule has secured high productivity and profitability for our stakeholders time and time again.</p>
                     </div>
                     <div className="w-[500px] max-md:w-full">
-<<<<<<< HEAD
-                        <Image className="rounded-lg" src="/presence.jpg" alt="" />
-=======
                         <Image className="rounded-lg w-full" src="/presence.jpg" alt="" />
->>>>>>> 915d9d50c5b39cc6b1a11f6eddde37bc68ae6a45
-                    </div>
-                </div>
+                    </div >
+                </div >
 
-                <div className="numbers flex gap-10 justify-around w-[40vw] items-center font-arial py-6 flex-wrap">
-                    <div>
-                        <h2 className='text-5xl font-bold text-[#407050]'>10+</h2>
-                        <p>Years of Experience</p>
-                    </div>
-                    <div className="seperation h-8 w-[2px] bg-[#c7a74a]"></div>
-                    <div>
-                        <h2 className='text-5xl font-bold text-[#407050]'>03</h2>
-                        <p>Ongoing Projects</p>
-                    </div>
-                    
-                </div>
+    <div className="numbers flex gap-10 justify-around w-[40vw] items-center font-arial py-6 flex-wrap">
+        <div>
+            <h2 className='text-5xl font-bold text-[#407050]'>10+</h2>
+            <p>Years of Experience</p>
+        </div>
+        <div className="seperation h-8 w-[2px] bg-[#c7a74a]"></div>
+        <div>
+            <h2 className='text-5xl font-bold text-[#407050]'>03</h2>
+            <p>Ongoing Projects</p>
+        </div>
 
-            </div>
+    </div>
+
+            </div >
 
             <div className="bg-gradient-to-t from-[#fcf7ea] to-[#fff] flex flex-col gap-12 jsutify-center items-center px-12 py-24 max-lg:gap-6">
                     <div className='flex justify-between items-center w-[75vw] max-lg:flex-col max-lg:gap-5 max-lg:justify-center'>
@@ -145,7 +141,7 @@ const AboutClientPage = () => {
                     </div>
                 </div>
 
-        </div>
+        </div >
     )
 }
 
