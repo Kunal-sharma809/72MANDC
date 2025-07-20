@@ -83,7 +83,7 @@ const CareerClientPage = () => {
                             </div>
                         </div>
                         <div className="w-[448px] max-md:w-full">
-                            <Image className="rounded-lg" src="/career/photo_1.png" alt="" />
+                            <Image className="rounded-lg w-[448px] max-md:w-[90%] mx-auto" src="/career/photo_1.png" alt="" />
                         </div>
                     </div>
 

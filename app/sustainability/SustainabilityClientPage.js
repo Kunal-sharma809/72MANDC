@@ -62,7 +62,7 @@ const SustainabilityClientPage = () => {
         </div>
       </div> */}
 
-      <div className="about w-full bg-gradient-to-t from-[#fcf7ea] to-[#fff] py-22 px-14 flex flex-col items-center justify-center gap-34">
+      <div className="about w-full bg-gradient-to-t from-[#fcf7ea] to-[#fff] py-22 px-14 flex flex-col items-center justify-center gap-12">
         <div className="health flex justify-between w-[85vw] max-xl:flex-col max-xl:gap-8 max-xl:items-center">
           <div className="content flex jsutify-center items-center gap-5 flex-col w-[40vw] max-xl:w-[85vw] mx-auto">
             <h3 className="font-semibold text-xl">Our priority</h3>

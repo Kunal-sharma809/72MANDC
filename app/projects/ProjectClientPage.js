@@ -37,14 +37,14 @@ const ProjectClientPage = () => {
                             </div>
                         </div>
                         <div className="w-[448px] max-md:w-full">
-                            <Image className="rounded-lg " src="/projects/photo_1.jpg" alt="" />
+                            <Image className="rounded-lg w-[448px] max-md:w-[90%] mx-auto" src="/projects/photo_1.jpg" alt="" />
                         </div>
                     </div>
 
 
                     <div className="ongoing_projects flex justify-between w-[85vw] max-xl:flex-col max-xl:gap-8 max-xl:items-center">
                         <div className="w-[448px] max-md:w-full">
-                            <Image className="rounded-lg object-center" src="/projects/photo_3.jpg" alt="" />
+                            <Image className="rounded-lg object-center w-[448px] max-md:w-[90%] mx-auto" src="/projects/photo_3.jpg" alt="" />
                         </div>
                         <div className="content flex jsutify-center items-center gap-5 flex-col w-[40vw] max-xl:w-[85vw]">
                             <h3 className="font-semibold text-xl">Our</h3>
@@ -56,10 +56,10 @@ const ProjectClientPage = () => {
             </Element>
             <div className="ongoing_projects mx-auto flex justify-between w-[80vw] max-xl:flex-col max-xl:gap-8 max-xl:items-center">
                 <div className="w-[550px] max-md:w-full">
-                    <Image className="rounded-lg object-center" src="/projects/photo_2.jpg" alt="" />
+                    <Image className="rounded-lg object-center w-[550px] max-md:w-full" src="/projects/photo_2.jpg" alt="" />
                 </div>
                 <div className="w-[550px] h-[336px] max-md:w-full">
-                    <Image className="rounded-lg object-cover w-[550px] h-[412px]" src="/projects/photo_4.jpg" alt="" />
+                    <Image className="rounded-lg object-cover w-[550px] h-[300px]" src="/projects/photo_4.jpg" alt="" />
                 </div>
             </div>
 
